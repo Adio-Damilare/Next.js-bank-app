@@ -1,0 +1,275 @@
+#container {
+    background-color: #000;
+    min-height: 95vh;
+    max-height: 95vh;
+    height: 95vh;
+    min-width: 250px;
+    max-width: 250px;
+    margin: 10px 0px 10px 20px;
+    border-radius: 20px;
+    color: #FFF;
+}
+
+#firstSection {
+    text-align: center;
+    min-height: 40% !important;
+    height: 40% !important;
+    max-height: 40% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+
+#firstSectionSecondChild article {
+    color: #5E5E5E;
+
+}
+
+#firstSectionSecondChild h2 {
+    font-size: 25px;
+}
+
+#firstSectionSecondChild img {
+    max-height: 100px !important;
+    max-width: 100px !important;
+    border: 10px solid #2B2B2B;
+    outline: #FFF solid 3px;
+    border-radius: 50%;
+}
+
+#Secondsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#SecondSectionFirstElement {
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+}
+
+#SecondSectionFirstElement a {
+    display: flex;
+    /* flex-direction: column; */
+    margin: 10px 10px;
+    align-items: center;
+    text-decoration: none;
+    gap: 20px;
+    color: #FFF;
+    font-size: 18px;
+    padding: 10px;
+    box-sizing:border-box;
+    border-radius: 5px;
+}
+
+#SecondSectionFirstElement a:hover {
+    gap: 20px;
+    color: #242222;
+    background-color: #FFF
+}
+#Cup {
+    gap: 20px;
+    color: #242222 !important;
+    background-color: #FFF
+}
+
+#SecondSectionFirstElement a svg {
+    font-size: 25px;
+}
+
+    
+
+
+@media (max-width:1103px) and (min-width:763px) {
+    #Position {
+        width: 100%;
+        height: 110Vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background-color: rgba(197, 197, 197, 0.568);
+        z-index: 1033333333;
+        padding-top: 5px;
+    }
+
+    #container {
+        background-color: #000;
+        min-height: 100vh;
+        max-height: 100vh;
+        height: 100vh;
+        min-width: 250px;
+        max-width: 250px;
+        margin: 5px 10px 5px 10px;
+        border-radius: 20px;
+        color: #FFF;
+    }
+
+    #firstSection {
+        text-align: center;
+        min-height: 40% !important;
+        height: 40% !important;
+        max-height: 40% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* border: 1px solid red; */
+    }
+
+    #firstSectionSecondChild article {
+        color: #5E5E5E;
+
+    }
+
+    #firstSectionSecondChild h2 {
+        font-size: 25px;
+    }
+
+    #firstSectionSecondChild img {
+        max-height: 90px !important;
+        max-width: 90px !important;
+        border: 10px solid #2B2B2B;
+        outline: #FFF solid 3px;
+        border-radius: 50%;
+    }
+
+    #Secondsection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #SecondSectionFirstElement {
+        display: flex;
+        flex-direction: column;
+        gap: 20;
+    }
+
+    #SecondSectionFirstElement a {
+        display: flex;
+        /* flex-direction: column; */
+        margin: 10px 10px;
+        align-items: center;
+        text-decoration: none;
+        gap: 20px;
+        color: #FFF;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #SecondSectionFirstElement a:hover {
+        display: flex;
+        /* flex-direction: column; */
+        margin: 10px 10px;
+        align-items: center;
+        text-decoration: none;
+        gap: 20px;
+        color: #242222;
+        background-color: #FFF;
+        font-size: 20px;
+    }
+
+    #SecondSectionFirstElement a svg {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:762px) and (min-width:73px) {
+    #Position {
+        width: 100%;
+        height: 110Vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background-color: rgba(197, 197, 197, 0.568);
+        z-index: 1033333333333333333333;
+        padding-top: 5px;
+    }
+
+    #container {
+        background-color: #000;
+        min-height: 100vh;
+        max-height: 100vh;
+        height: 100vh;
+        min-width: 250px;
+        max-width: 250px;
+        margin: 5px 10px 5px 10px;
+        border-radius: 20px;
+        color: #FFF;
+    }
+
+    #firstSection {
+        text-align: center;
+        min-height: 35% !important;
+        height: 35% !important;
+        max-height: 35% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* border: 1px solid red; */
+    }
+
+    #firstSectionSecondChild article {
+        color: #5E5E5E;
+
+    }
+
+    #firstSectionSecondChild h2 {
+        font-size: 25px;
+    }
+
+    #firstSectionSecondChild img {
+        max-height: 90px !important;
+        max-width: 90px !important;
+        border: 10px solid #2B2B2B;
+        outline: #FFF solid 3px;
+        border-radius: 50%;
+    }
+
+    #Secondsection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #SecondSectionFirstElement {
+        display: flex;
+        flex-direction: column;
+        gap: 10;
+    }
+
+    #SecondSectionFirstElement a {
+        display: flex;
+        margin: 10px 10px;
+        align-items: center;
+        text-decoration: none;
+        gap: 20px;
+        color: #FFF;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #SecondSectionFirstElement a:hover {
+        display: flex;
+        margin: 10px 10px;
+        align-items: center;
+        text-decoration: none;
+        gap: 20px;
+        color: #242222;
+        background-color: #FFF;
+        font-size: 20px;
+    }
+
+    #SecondSectionFirstElement a svg {
+        font-size: 25px;
+    }
+}

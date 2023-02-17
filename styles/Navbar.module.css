@@ -1,0 +1,297 @@
+#container {
+    background-color: #FFFFFF;
+    padding: 10px 50px;
+    color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around !important;
+    height: 100%;
+    padding-top: 20px;
+}
+
+#logo {
+    color: inherit;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+#Account {
+    color: inherit;
+}
+
+#SecondSection {
+    display: flex;
+}
+
+#ToggleButton {
+    display: none;
+    padding: 20px;
+    transition: ease-out 1s;
+
+}
+
+#UnorderLIst {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    column-gap: 50px;
+    height: 100%;
+}
+
+#list {
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 500;
+    position: relative;
+    height: 100%;
+}
+
+#list a {
+    text-decoration: none;
+}
+
+#Hidden {
+    /* display: none; */
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 10px 5px;
+    font-size: 15px;
+    color: #000000;
+    transition: ease-in 2s;
+    transform: translate(-30px, 10px);
+    width: 160px;
+    border: 1px solid #9b9a9a;
+    gap: 5px;
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+#Hidden a {
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+    font-size: 17px;
+}
+
+#Hidden a:hover {
+    color: #9e9898;
+    border-radius: 4px;
+    background-color: #F6ECFF;
+}
+
+.ShowHidden:hover #Hidden,
+#Hidden:hover {
+    /* display: block; */
+    transition: ease-in 2s;
+    transform: translate(200px 200px);
+    visibility: visible;
+}
+
+#ButtonForTogglediv {
+    display: none;
+}
+
+#SmallDeviceNav {
+    display: flex;
+    flex-direction: column;
+}
+
+#SmallDeviceNav a {
+    text-decoration: none;
+    color: #561f86;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    /* border: 1px solid brown; */
+    border-radius: 5px;
+    background-color: rgb(188, 188, 224);
+}
+
+#ButtonForToggle {
+    transition: ease-out 4ms;
+    font-size: 30px;
+}
+
+@media (max-width:662px) and (min-width:470px) {
+
+    #ToggleButton {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width:90% !important;
+        min-height: 500px;
+        background-color: #eceaea;
+        top: 85px;
+        transition: ease-in 3s;
+        border-end-end-radius: 20px;
+        border-end-start-radius: 20px;
+        padding: 20px;
+    }
+
+
+    #ButtonForTogglediv {
+        display: flex;
+        width: 50%;
+        /* border:1px solid red; */
+        justify-content: flex-end;
+
+    }
+
+    /* #PositionAbsolute {} */
+
+    #container {
+        background-color: #FFFFFF;
+        padding: 10px 0px;
+        color: #000000;
+        position: sticky;
+        top: 0;
+        z-index: 2000;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: space-around !important;
+        height: 100%;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    #logo {
+        color: inherit;
+        font-weight: 700;
+        font-size: 30px;
+        text-decoration: none;
+        width: 45%;
+        /* border:1px solid red; */
+    }
+
+    #Account {
+        color: inherit;
+    }
+
+    #SecondSection {
+        display: flex;
+    }
+
+    #UnorderLIst {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        column-gap: 50px;
+        height: 100%;
+        display: none !important;
+    }
+
+    #list {
+        text-decoration: none;
+        font-size: 26px;
+        font-weight: 500;
+        position: relative;
+        height: 100%;
+    }
+
+    #list a {
+        text-decoration: none;
+    }
+
+
+}
+
+@media (max-width:469px) and (min-width:47px) {
+
+    #ToggleButton {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 98%;
+        min-height: 500px;
+        background-color: #eceaea;
+        background-blend-mode: multiply;
+        top: 85px;
+        transition: ease-in 3s;
+        border-end-end-radius: 20px;
+        border-end-start-radius: 20px;
+    }
+
+
+    #ButtonForTogglediv {
+        display: flex;
+        width: 50%;
+        /* border:1px solid red; */
+        justify-content: flex-end;
+
+    }
+
+    /* #PositionAbsolute {} */
+
+    #container {
+        background-color: #FFFFFF;
+        padding: 10px 0px;
+        color: #000000;
+        position: sticky;
+        top: 0;
+        z-index: 2000;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: space-around !important;
+        height: 100%;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    #logo {
+        color: inherit;
+        font-weight: 700;
+        font-size: 30px;
+        text-decoration: none;
+        width: 45%;
+        /* border:1px solid red; */
+    }
+
+    #Account {
+        color: inherit;
+    }
+
+    #SecondSection {
+        display: flex;
+    }
+
+    #UnorderLIst {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        column-gap: 50px;
+        height: 100%;
+        display: none !important;
+    }
+
+    #list {
+        text-decoration: none;
+        font-size: 26px;
+        font-weight: 500;
+        position: relative;
+        height: 100%;
+    }
+
+    #list a {
+        text-decoration: none;
+    }
+
+    
+
+}

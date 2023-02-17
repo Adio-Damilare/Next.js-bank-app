@@ -1,0 +1,2513 @@
+#Container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(197, 197, 197, 0.668);
+    z-index: 103333333333;
+    transition:ease-in 5ms;
+}
+
+#ContainerMain {
+    background: rgb(17, 75, 235);
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    color: #FFF;
+
+}
+
+#ContainerMain div {
+    margin: 10px;
+
+}
+
+#InputForSearch{
+    display:flex;
+    gap:10px;
+    margin:10px 0 !important;
+}
+
+#InputForSearch button{
+    background-color:rgb(134, 72, 196);
+    width:25%;
+}
+
+#ContainerMain div input {
+    padding: 10px;
+    font-size: 20px;
+    z-index:9000000;
+}
+
+#singleUser{
+    display:flex;
+    background-color:rgb(88, 5, 172);
+    border-radius:10px;
+    padding:10px;
+    cursor:pointer;
+    align-items:center;
+    justify-content:space-around;
+}
+#singleUser img{
+    border-radius:50%;
+    min-height:77px;
+    max-height:77px;
+    min-width:80px;
+    max-width:80px;
+}
+
+#singleUser main{
+    width: 20%;
+}
+#SixthComponent{
+    background-color: #FFF;
+    color: #000;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#SixthComponent img{
+   border-radius: 50%;
+   min-width: 140px;
+   min-height: 140px;
+   max-height: 140px;
+   max-width: 140px;
+   border: 1px dotted #000;
+
+}
+#SixthComponent strong{
+  font-size: 20px;
+
+}
+#SixthComponent article{
+  font-size: 18px;
+
+}
+
+#singleUser section{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#singleUser section article{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#searchButton{
+    background-color: #5f37ee;
+}
+
+#dataName{
+    color:rgb(57, 240, 57);
+}
+
+#select {
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+#MinimumHeight1 p{
+    font-size:14px;
+    color:#fff;
+}
+#MinimumHeight1 button{
+    margin: 0 5px;
+    font-size:14px;
+}
+
+#MinimumHeight{
+    min-height:450px;
+    max-height:450px;
+    border-radius:10px;
+    background-color: #FFF;
+    overflow-y:auto;
+    margin-top:60px;
+}
+#MinimumHeight::-webkit-scrollbar{
+    width:9px;
+    background-color: rgb(101, 99, 102);
+    padding:2px;
+}
+#MinimumHeight::-webkit-scrollbar-thumb{
+    background-color: rgba(238, 85, 14, 0.514);
+    border-radius:10px;
+}
+
+#select option {
+    font-size: 20px;
+
+}
+#searchForUser{
+    background-color: rebeccapurple;
+    text-align: center;
+    color: #FFF;
+    display: block;
+    margin: 0 auto;
+}
+
+#AlertWarning {
+    font-size: 16px;
+    text-align: center
+}
+
+#AlertWarning svg {
+    font-size: 30px;
+    color: gold
+}
+
+#LineThrough {
+    text-decoration: line-through double 2px;
+    font-size: 19px;
+}
+
+#DirectElement {
+    margin: 0 40px;
+}
+
+#Button {
+    background-color: #561f86;
+    width: 100%;
+    color: #FFF;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#BankDetails {
+    background-color: rgb(190, 184, 184);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    gap: 10px;
+}
+
+#BankDetails strong {
+    color: rgb(46, 45, 45);
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    font-weight: 5000;
+    display: block;
+}
+
+#BankDetails b {
+    color: rgb(46, 45, 45);
+    font-size: 18px;
+    width: 100%;
+    font-weight: 5000
+}
+
+#BankDetails article {
+    color: rgb(46, 45, 45);
+    font-size: 18px;
+    width: 100%;
+    font-weight: 5000
+}
+
+#TextArea {
+    min-height: 60px;
+    max-height: 60px;
+}
+
+#NotesSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ThirdComponent {
+    background-color: #FFF;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#ThirdComponent article {
+    font-size: 23px;
+    text-align: center
+}
+
+#ThirdComponent ul {
+    font-size: 17px;
+    list-style: none;
+}
+
+#ThirdComponent ul li {
+    font-size: 17px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Closebtn {
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(233, 232, 226);
+    margin: 10px 0;
+    transform: translate(45px, -50px);
+    color: #FFFF;
+}
+
+#Closebtn svg {
+    font-size: 25px;
+    color: #FFFF;
+}
+
+#Seventhcomponent{
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    align-items:center;
+    background-color:rgb(228, 222, 222);
+    border-radius:10px;
+    padding: 0 20px;
+    color:#000;
+}
+#SeventhcomponentFirstsection div{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+#SeventhcomponentFirstsection p{
+    border-radius:50%;
+    width:90px;
+    height:90px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+#SeventhcomponentFirstsection p svg{
+    width:40px;
+    height:40px;    
+
+}
+
+#SeventhcomponentSecondsection{
+    text-align: justify;
+    word-spacing: 1px;
+}
+#SeventhcomponentSecondsection  p{
+    word-wrap: normal;
+    font-size:20px;
+    text-align: justify;
+    text-align: center;
+    word-spacing: 0.03px;
+}
+
+#PasswordInput{
+    font-size: 24px;
+    /* width: 45%; */
+    margin: 10px auto ;
+    letter-spacing: 13px;
+}
+#PasswordInput::placeholder{
+    font-size: 24px;
+}
+
+#SeventhcomponentThirdsection {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#SeventhcomponentThirdsection button{
+    background-color: #FFF ;
+    color: #5f37ee;
+    font-size: 22px;
+    width: 46%;
+    border:1px solid  #5f37ee;
+}
+#SeventhcomponentThirdsection button:hover{
+    background-color: #5f37ee ;
+    color :#FFF;
+    font-size: 22px;
+    width: 46%;
+    border:1px solid  #5f37ee;
+}
+
+#SeventhcomponentThirdsectiondynamic{
+    background-color: #5f37ee !important;
+    color:#FFF !important;
+}
+#SeventhcomponentThirdsectiondynamic:hover{
+    background-color: #FFF !important;
+    color:#5f37ee  !important;
+}
+
+@media (max-width:1131px) and (min-width:1042px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 45%;
+        padding: 40px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 10px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+
+    }
+
+    #AlertWarning {
+        font-size: 16px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 17px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:1042px) and (min-width:916px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 50%;
+        padding: 40px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 10px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 16px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 17px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+@media (max-width:916px) and (min-width:852px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 53%;
+        padding: 40px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 10px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 16px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 17px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:852px) and (min-width:801px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 55%;
+        padding: 40px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 10px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 16px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 17px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:801px) and (min-width:773px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 57%;
+        padding: 40px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 10px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 16px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 17px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+@media (max-width:773px) and (min-width:716px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 60%;
+        padding: 40px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 10px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 16px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 17px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:716px) and (min-width:669px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 65%;
+        padding: 35px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 10px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 16px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 17px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:669px) and (min-width:648px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 68%;
+        padding: 35px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 10px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 15px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 17px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:648px) and (min-width:601px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 72%;
+        padding: 35px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 10px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 15px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 17px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:601px) and (min-width:571px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 75%;
+        padding: 30px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 10px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 15px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 17px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:571px) and (min-width:549px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 79%;
+        padding: 30px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 10px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 15px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 17px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:549px) and (min-width:513px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 87%;
+        padding: 30px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 10px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 15px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 17px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:513px) and (min-width:486px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 90%;
+        padding: 40px 25px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 10px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 15px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 17px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:486px) and (min-width:445px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 95%;
+        padding: 40px 25px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 10px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 15px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 17px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:446px) and (min-width:402px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 98%;
+        padding: 40px 20px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 10px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 15px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+     
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 17px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:402px) and (min-width:344px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 99%;
+        padding: 40px 18px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 6px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 15px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 15px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:344px) and (min-width:3px) {
+    #ContainerMain {
+        background: rgb(17, 75, 235);
+        width: 100%;
+        padding: 40px 5px;
+        border-radius: 10px;
+        color: #FFF;
+
+    }
+
+    #ContainerMain div {
+        margin: 6px;
+
+    }
+
+    #ContainerMain div input {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #select {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #select option {
+        font-size: 20px;
+    }
+
+    #AlertWarning {
+        font-size: 15px;
+        text-align: center
+    }
+
+    #AlertWarning svg {
+        font-size: 30px;
+        color: gold
+    }
+
+    #LineThrough {
+        text-decoration: line-through double 2px;
+        font-size: 19px;
+    }
+
+    #DirectElement {
+        margin: 0 40px;
+    }
+
+    #Button {
+        background-color: #561f86;
+        width: 100%;
+        color: #FFF;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    #BankDetails {
+        background-color: rgb(190, 184, 184);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #BankDetails strong {
+        color: rgb(46, 45, 45);
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        font-weight: 5000;
+        display: block;
+    }
+
+    #BankDetails b {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #BankDetails article {
+        color: rgb(46, 45, 45);
+        font-size: 18px;
+        /* text-align:center; */
+        width: 100%;
+        font-weight: 5000
+    }
+
+    #TextArea {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    #NotesSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ThirdComponent {
+        background-color: #FFF;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    #ThirdComponent article {
+        font-size: 23px;
+        text-align: center
+    }
+
+    #ThirdComponent ul {
+        font-size: 17px;
+        list-style: none;
+    }
+
+    #ThirdComponent ul li {
+        font-size: 15px;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}

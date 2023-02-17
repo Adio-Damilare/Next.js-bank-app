@@ -1,0 +1,196 @@
+#Container{
+    min-height: 87vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Container::-webkit-scrollbar{
+    display: none !important;
+}
+#Container::-webkit-scrollbar-thumb{
+    display: none !important;
+}
+#errorMessage{
+    font-size: 15px !important;
+}
+#Row{
+    width: 60%;  
+}
+#Row form{
+    width: 60%;  
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47) ;
+    padding: 60px;
+    border-radius: 18px;
+}
+#Row form article{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+#Input{
+    width: 100%;
+    font-size: 1.5em;
+}
+#Input::selection{
+    outline: none !important;
+}
+#Input::placeholder{
+    outline: none !important;
+}
+
+#Button{
+    display: block;
+    background-color: #561f86;
+    color:#FFFF;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    align-self: center;
+}
+
+
+@media (max-width:1285px) and (min-width:1189px){
+    #Row{
+        width: 70%;  
+    }
+    #Input{
+        width: 100%;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width:1188px) and (min-width:1024px){
+    #Row{
+        width: 80%;  
+    }
+    #Input{
+        width: 100%;
+        font-size: 1.2em;
+    }
+}
+@media (max-width:1023px) and (min-width:949px){
+    #Row{
+        width: 85%;  
+    }
+    #Input{
+        width: 100%;
+        font-size: 1.2em;
+    }
+}
+@media (max-width:948px) and (min-width:873px){
+    #Row{
+        width: 90%;  
+    }
+    #Input{
+        width: 100%;
+        font-size: 1.2em;
+    }
+}
+@media (max-width:872px) and (min-width:807px){
+    #Row{
+        width: 100%;  
+    }
+    #Input{
+        width: 100%;
+        font-size: 1.2em;
+    }
+}
+@media (max-width:806px) and (min-width:677px){
+    #Row{
+        width: 100%;  
+    }
+    #Input{
+        width: 100%;
+        font-size: 1.2em;
+    }
+    #Row form{
+        width: 070%;  
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+        box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47) ;
+        padding: 60px;
+        border-radius: 18px;
+    }
+}
+@media (max-width:676px) and (min-width:601px){
+    #Row{
+        width: 100%;  
+    }
+    #Input{
+        width: 100%;
+        font-size: 1.2em;
+    }
+    #Row form{
+        width: 080%;  
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+        box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47) ;
+        padding: 55px;
+        border-radius: 18px;
+    }
+}
+@media (max-width:600px) and (min-width:546px){
+    #Row{
+        width: 100%;  
+    }
+    #Input{
+        width: 100%;
+        font-size: 1.2em;
+    }
+    #Row form{
+        width: 087%;  
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+        box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47) ;
+        padding: 50px;
+        border-radius: 18px;
+    }
+}
+@media (max-width:545px) and (min-width:448px){
+    #Row{
+        width: 100%;  
+    }
+    #Input{
+        width: 100%;
+        font-size: 1.2em;
+    }
+    #Row form{
+        width: 093%;  
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+        box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47) ;
+        padding: 40px;
+        border-radius: 18px;
+    }
+}
+@media (max-width:447px) and (min-width:399px){
+    #Row{
+        width: 100%;  
+    }
+    #Input{
+        width: 100%;
+        font-size: 1.2em;
+    }
+    #Row form{
+        width: 099%;  
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+        box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47) ;
+        padding: 35px;
+        border-radius: 18px;
+    }
+}
+@media (max-width:398px) and (min-width:39px){
+    #Row{
+        width: 100%;  
+    }
+    #Input{
+        width: 100%;
+        font-size: 1.2em;
+    }
+    #Row form{
+        width: 100%;  
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+        box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47) ;
+        padding: 20px;
+        border-radius: 18px;
+    }
+}

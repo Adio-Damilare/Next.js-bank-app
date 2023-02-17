@@ -1,0 +1,741 @@
+#Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 70vh;
+    justify-content: center;
+}
+#ErrorMessage{
+    font-size: 15px !important;
+}
+#ErrorMessage::first-letter{
+    text-transform: capitalize;
+}
+
+
+#Children {
+    width: 40%;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    transition: ease-out 3ms;
+}
+
+#FirstComponentButton {
+    display: block;
+    background-color: #561f86;
+    color: #FFFF;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    align-self: center;
+}
+
+#ButtonsSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+
+#specialButton{
+    background-color: #561f86 !important;
+}
+
+#ButtonsSection  button{
+    width: 20%;
+    text-align: center;
+    color: #FFFF !important;
+    padding: 10px 30px;
+}
+
+#AlreadyHaveAccount{
+    font-size:17px;
+    margin:10px 0px;
+}
+
+#Input{
+    /* padding:0px; */
+    text-indent:20px;
+    font-size:20px;
+    font-weight:500;
+}
+
+@media (max-width:1366px) and (min-width:1114px){
+    #Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        justify-content: center;
+    }
+    
+    
+    #Children {
+        width: 45%;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 40px;
+        text-align: center;
+        border-radius: 20px;
+        transition: ease-out 3ms;
+    }
+    
+    #FirstComponentButton {
+        display: block;
+        background-color: #561f86;
+        color: #FFFF;
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+        align-self: center;
+    }
+    
+    #ButtonsSection{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    
+    
+    
+    #specialButton{
+        background-color: #561f86 !important;
+    }
+    
+    #ButtonsSection  button{
+        width: 25%;
+        text-align: center;
+        color: #FFFF !important;
+        padding: 10px 30px;
+    }
+    
+    #AlreadyHaveAccount{
+        font-size:19px;
+        margin:10px 0px;
+    }
+    
+    #Input{
+        /* padding:0px; */
+        text-indent:20px;
+        font-size:20px;
+        font-weight:500;
+    }
+}
+
+@media (max-width:1113px) and (min-width:974px){
+    #Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        justify-content: center;
+    }
+    
+    
+    #Children {
+        width: 52%;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 35px;
+        text-align: center;
+        border-radius: 20px;
+        transition: ease-out 3ms;
+    }
+    
+    #FirstComponentButton {
+        display: block;
+        background-color: #561f86;
+        color: #FFFF;
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+        align-self: center;
+    }
+    
+    #ButtonsSection{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    
+    
+    
+    #specialButton{
+        background-color: #561f86 !important;
+    }
+    
+    #ButtonsSection  button{
+        width: 25%;
+        text-align: center;
+        color: #FFFF !important;
+        padding: 10px 30px;
+    }
+    
+    #AlreadyHaveAccount{
+        font-size:19px;
+        margin:10px 0px;
+    }
+    
+    #Input{
+        /* padding:0px; */
+        text-indent:20px;
+        font-size:20px;
+        font-weight:500;
+    }
+}
+
+@media (max-width:973px) and (min-width:914px){
+    #Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        justify-content: center;
+    }
+    
+    
+    #Children {
+        width: 60%;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 35px;
+        text-align: center;
+        border-radius: 20px;
+        transition: ease-out 3ms;
+    }
+    
+    #FirstComponentButton {
+        display: block;
+        background-color: #561f86;
+        color: #FFFF;
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+        align-self: center;
+    }
+    
+    #ButtonsSection{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    
+    
+    
+    #specialButton{
+        background-color: #561f86 !important;
+    }
+    
+    #ButtonsSection  button{
+        width: 25%;
+        text-align: center;
+        color: #FFFF !important;
+        padding: 10px 30px;
+    }
+    
+    #AlreadyHaveAccount{
+        font-size:19px;
+        margin:10px 0px;
+    }
+    
+    #Input{
+        /* padding:0px; */
+        text-indent:20px;
+        font-size:20px;
+        font-weight:500;
+    }
+}
+@media (max-width:913px) and (min-width:814px){
+    #Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        justify-content: center;
+    }
+    
+    
+    #Children {
+        width: 70%;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 35px;
+        text-align: center;
+        border-radius: 20px;
+        transition: ease-out 3ms;
+    }
+    
+    #FirstComponentButton {
+        display: block;
+        background-color: #561f86;
+        color: #FFFF;
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+        align-self: center;
+    }
+    
+    #ButtonsSection{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    
+    
+    
+    #specialButton{
+        background-color: #561f86 !important;
+    }
+    
+    #ButtonsSection  button{
+        width: 25%;
+        text-align: center;
+        color: #FFFF !important;
+        padding: 10px 30px;
+    }
+    
+    #AlreadyHaveAccount{
+        font-size:19px;
+        margin:10px 0px;
+    }
+    
+    #Input{
+        /* padding:0px; */
+        text-indent:20px;
+        font-size:20px;
+        font-weight:500;
+    }
+}
+
+
+@media (max-width:813px) and (min-width:786px){
+    #Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        justify-content: center;
+    }
+    
+    
+    #Children {
+        width: 65%;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 30px;
+        text-align: center;
+        border-radius: 20px;
+        transition: ease-out 3ms;
+    }
+    
+    #FirstComponentButton {
+        display: block;
+        background-color: #561f86;
+        color: #FFFF;
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+        align-self: center;
+    }
+    
+    #ButtonsSection{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    
+    
+    
+    #specialButton{
+        background-color: #561f86 !important;
+    }
+    
+    #ButtonsSection  button{
+        width: 25%;
+        text-align: center;
+        color: #FFFF !important;
+        padding: 10px 30px;
+    }
+    
+    #AlreadyHaveAccount{
+        font-size:19px;
+        margin:10px 0px;
+    }
+    
+    #Input{
+        /* padding:0px; */
+        text-indent:20px;
+        font-size:20px;
+        font-weight:500;
+    }
+}
+@media (max-width:785px) and (min-width:694px){
+    #Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        justify-content: center;
+    }
+    
+    
+    #Children {
+        width: 75%;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 30px;
+        text-align: center;
+        border-radius: 20px;
+        transition: ease-out 3ms;
+    }
+    
+    #FirstComponentButton {
+        display: block;
+        background-color: #561f86;
+        color: #FFFF;
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+        align-self: center;
+    }
+    
+    #ButtonsSection{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+    }
+    
+    
+    
+    #specialButton{
+        background-color: #561f86 !important;
+    }
+    
+    #ButtonsSection  button{
+        width: 25%;
+        text-align: center;
+        color: #FFFF !important;
+        padding: 10px 30px;
+    }
+    
+    #AlreadyHaveAccount{
+        font-size:18px;
+        margin:10px 0px;
+    }
+    
+    #Input{
+        /* padding:0px; */
+        text-indent:20px;
+        font-size:20px;
+        font-weight:500;
+    }
+}
+@media (max-width:693px) and (min-width:606px){
+    #Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        justify-content: center;
+    }
+    
+    
+    #Children {
+        width: 85%;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 30px;
+        text-align: center;
+        border-radius: 20px;
+        transition: ease-out 3ms;
+    }
+    
+    #FirstComponentButton {
+        display: block;
+        background-color: #561f86;
+        color: #FFFF;
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+        align-self: center;
+    }
+    
+    #ButtonsSection{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+    }
+    
+    
+    
+    #specialButton{
+        background-color: #561f86 !important;
+    }
+    
+    #ButtonsSection  button{
+        width: 25%;
+        text-align: center;
+        color: #FFFF !important;
+        padding: 10px 30px;
+    }
+    
+    #AlreadyHaveAccount{
+        font-size:18px;
+        margin:10px 0px;
+    }
+    
+    #Input{
+        /* padding:0px; */
+        text-indent:20px;
+        font-size:20px;
+        font-weight:500;
+    }
+}
+@media (max-width:605px) and (min-width:522px){
+    #Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        justify-content: center;
+    }
+    
+    
+    #Children {
+        width: 95%;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 30px;
+        text-align: center;
+        border-radius: 20px;
+        transition: ease-out 3ms;
+    }
+    
+    #FirstComponentButton {
+        display: block;
+        background-color: #561f86;
+        color: #FFFF;
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+        align-self: center;
+    }
+    
+    #ButtonsSection{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+    }
+    
+    
+    
+    #specialButton{
+        background-color: #561f86 !important;
+    }
+    
+    #ButtonsSection  button{
+        width: 28%;
+        text-align: center;
+        color: #FFFF !important;
+        padding: 10px 30px;
+    }
+    
+    #AlreadyHaveAccount{
+        font-size:20px;
+        margin:10px 0px;
+    }
+    
+    #Input{
+        /* padding:0px; */
+        text-indent:20px;
+        font-size:20px;
+        font-weight:500;
+    }
+}
+@media (max-width:521px) and (min-width:398px){
+    #Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        justify-content: center;
+    }
+    
+    
+    #Children {
+        width: 100%;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 30px;
+        text-align: center;
+        border-radius: 20px;
+        transition: ease-out 3ms;
+    }
+    
+    #FirstComponentButton {
+        display: block;
+        background-color: #561f86;
+        color: #FFFF;
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+        align-self: center;
+    }
+    
+    #ButtonsSection{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px;
+    }
+    
+    
+    
+    #specialButton{
+        background-color: #561f86 !important;
+    }
+    
+    #ButtonsSection  button{
+        width: 28%;
+        text-align: center;
+        color: #FFFF !important;
+        padding: 10px 30px;
+    }
+    
+    #AlreadyHaveAccount{
+        font-size:20px;
+        margin:10px 0px;
+    }
+    
+    #Input{
+        /* padding:0px; */
+        text-indent:20px;
+        font-size:20px;
+        font-weight:500;
+    }
+}
+@media (max-width:397px) and (min-width:342px){
+    #Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        justify-content: center;
+    }
+    
+    
+    #Children {
+        width: 100%;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+        transition: ease-out 3ms;
+    }
+    
+    #FirstComponentButton {
+        display: block;
+        background-color: #561f86;
+        color: #FFFF;
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+        align-self: center;
+    }
+    
+    #ButtonsSection{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px;
+    }
+    
+    
+    
+    #specialButton{
+        background-color: #561f86 !important;
+    }
+    
+    #ButtonsSection  button{
+        width: 30%;
+        text-align: center;
+        color: #FFFF !important;
+        padding: 10px 30px;
+    }
+    
+    #AlreadyHaveAccount{
+        font-size:20px;
+        margin:10px 0px;
+    }
+    
+    #Input{
+        /* padding:0px; */
+        text-indent:10px;
+        font-size:20px;
+        font-weight:500;
+    }
+}
+@media (max-width:341px) and (min-width:32px){
+    #Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        justify-content: center;
+    }
+    
+    
+    #Children {
+        width: 100%;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 10px;
+        text-align: center;
+        border-radius: 20px;
+        transition: ease-out 3ms;
+    }
+    
+    #FirstComponentButton {
+        display: block;
+        background-color: #561f86;
+        color: #FFFF;
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+        align-self: center;
+    }
+    
+    #ButtonsSection{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px;
+    }
+    
+    
+    
+    #specialButton{
+        background-color: #561f86 !important;
+    }
+    
+    #ButtonsSection  button{
+        width: 30%;
+        text-align: center;
+        color: #FFFF !important;
+        padding: 10px 30px;
+    }
+    
+    #AlreadyHaveAccount{
+        font-size:20px;
+        margin:10px 0px;
+    }
+    
+    #Input{
+        /* padding:0px; */
+        text-indent:20px;
+        font-size:20px;
+        font-weight:500;
+    }
+}

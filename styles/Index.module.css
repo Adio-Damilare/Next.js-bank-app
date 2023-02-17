@@ -1,0 +1,3535 @@
+
+#container{
+    color: red;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    
+}
+
+.firstSection .childrens{
+    height: 100%;
+}
+#firstChild {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60% !important;
+    row-gap: 20px;
+}
+#firstChild h3 {
+font-size: 52px;
+font-weight: 400;
+}
+#firstChild h3 span {
+font-size: 55px;
+font-weight: 500;
+}
+#firstChild article {
+    font-size: 20px;
+    padding: 0 80px 0 0;
+}
+
+#secondChild {
+    width: 35% !important;
+}
+
+.firstSectionchildrensImage {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+
+
+/* this is the second section */
+
+.SecondSection{
+    /* border: 1px solid red ; */
+    height: 550px;
+    display: flex;
+    gap: 40px;
+}
+
+#SecondSectionSecondElement{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 1px solid red; */
+}
+
+#SecondSectionSecondElement   b{
+   font-size: 40px;
+   font-weight: 600;
+   
+}
+#SecondSectionSecondElement   p{
+   font-size: 23px;
+   padding-right: 30px;
+}
+#SecondSectionSecondElement   a{
+   font-size: 22px;
+   text-decoration: none;
+   color: #6D06B2   ;
+   font-weight: 600;
+}
+#SecondSectionFirstElement{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+#SecondSectionFirstElement img{
+    height: 100%;
+}
+
+
+/* this is the third section */
+
+#ThirdSection{
+     height: 700px;
+     display: flex;
+     gap: 40px;
+}
+
+#ThirdSectionFirstElement{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+#ThirdSectionFirstElement h3{
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+#ThirdSectionFirstElement p{
+    
+    font-size: 23px;
+   padding-right: 20px;
+}
+#ThirdSectionFirstElement button{
+    border: none;
+    font-size: 17px;
+    background-color: #6306B2;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFF;
+}
+
+#ThirdSectionSecondElement{
+    height: 100%;
+    width: 50%;
+}
+#ThirdSectionSecondElement img{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+/* forth section  */
+
+#forthSection{
+    margin-top: 10px;
+    background-color: #4A0586;
+    height: 550px;
+    display: flex;
+    color: #FFF;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 0 0;
+}
+#forthSection h1{
+    color: #FFF;
+    font-weight: 500;
+    font-size: 48px;
+}
+#forthSectionTestimonies{
+    display: flex;
+    gap: 20px;
+    background: linear-gradient(90deg,#4a0586 0,rgba(105,0,197,.404) 50%,#4a0586);
+    padding:20px;
+}
+
+#forthSectionTestimoniesSingle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#forthSectionTestimoniesSingle div b{
+    font-size:25px;
+    font-weight:500;
+}
+#forthSectionTestimoniesSingle div b span{
+    font-size:20px;
+    font-weight:500;
+}
+#forthSectionTestimoniesSingleStand{
+    border: 0.5px solid #FFFF;
+}
+#forthSectionTestimonyOfUser{
+    display:flex;
+    justify-content:space-between;
+    gap:13px;
+    width:79%;
+    margin-top:10px;
+}
+
+#forthSectionTestimonyOfUserFirstChild{
+    background-color:#FFF;
+    border-radius:20px;
+    color:#000;
+    width:33%;
+    padding:35px 23px 0 ;
+}
+#forthSectionTestimonyOfUserFirstChild p{
+    font-size:24px;
+    font-weight:450;
+    color:rgb(43, 41, 41);
+   margin-top: 10px;
+
+}
+
+#forthSectionTestimonyOfUserFirstChild div{
+    display:flex;
+    background-color:#FFF;
+    border-radius:20px;
+}
+
+
+#forthSectionTestimonyOfUserFirstChild div div{
+    display:flex;
+    background-color:#FFF;
+    border-radius:20px;
+    flex-direction:column;
+    margin-left: 20px;
+    row-gap: 0px;
+    
+}
+
+#forthSectionTestimonyOfUserFirstChild div div span{
+   font-size:28px;
+}
+
+#StarReaction{
+    margin-top:-10px ;
+}
+
+.Partnercontainer{
+padding:0 80px;
+      
+
+}
+
+#PathnersSection{
+    height: 700px;
+    padding-top: 50px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#PathnersSection h1{
+    color: #202046;
+    font-size:50px;
+    font-weight:500;
+}
+
+#PathnersSectionChild{
+    display:flex;
+   flex-wrap:wrap;
+   justify-content:space-evenly;
+   width:100%;
+   gap:10px;
+   
+}
+
+#PathnersSectionChild div{
+    width:14%;
+    margin:20px 10px;
+}
+#PathnersSectionChild div img{
+    width:100px !important;
+    height: 50px !important;
+    margin:20px 10px;
+}
+
+#Footer{
+    background:#E6E6E6;
+    height:500px;
+    padding:120px;
+}
+
+#FooterFirstChild{
+    display:flex;
+    justify-content:space-between;
+}
+#FooterFirstChild div{
+    
+}
+#FooterFirstChild div h5{
+    font-size:28px;
+    margin:20px 0px;
+}
+#FooterFirstChild div p{
+    font-size:18.5px;
+    cursor:pointer;
+}
+#FooterFirstChild div p:hover{
+    font-size:18.5px;
+    color:#1693DE;
+}
+/* media Query for 1156px  to 1044px */
+@media (max-width:1156px) and (min-width:1044px){    
+    
+    #container{
+        color: red;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: space-between;
+        height: 500px;
+        
+    }
+
+    .firstSection .childrens{
+        height: 100%;
+    }
+    #firstChild {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 60% !important;
+        /* border: 1px solid red; */
+        row-gap: 20px;
+    }
+    #firstChild h3 {
+    font-size: 52px;
+    font-weight: 400;
+    }
+    #firstChild h3 span {
+    font-size: 55px;
+    font-weight: 500;
+    }
+    #firstChild article {
+        font-size: 18px;
+        padding: 0 80px 0 0;
+    }
+
+    #secondChild {
+        width: 35% !important;
+    }
+
+    .firstSectionchildrensImage {
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+
+
+    /* this is the second section */
+
+    .SecondSection{
+        /* border: 1px solid red ; */
+        height: 590px;
+        display: flex;
+        gap: 40px;
+        width: 100;
+    }
+
+    #SecondSectionSecondElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        /* border: 1px solid red; */
+    }
+
+    #SecondSectionSecondElement   b{
+    font-size: 40px;
+    font-weight: 600;
+    
+    }
+    #SecondSectionSecondElement   p{
+    font-size: 25px;
+    padding-right: 10px;
+    }
+    #SecondSectionSecondElement   a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #6D06B2   ;
+    font-weight: 600;
+    }
+    #SecondSectionFirstElement{
+        height: 100%;
+        width: 50%;
+        /* border: 1px solid red; */
+    }
+    #SecondSectionFirstElement img{
+        height: 100% !important;
+       min-width: 100% !important;
+       width: 100% !important;
+    }
+
+
+    /* this is the third section */
+
+    #ThirdSection{
+        height: 600px;
+        display: flex;
+        gap: 40px;
+    }
+
+    #ThirdSectionFirstElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 50%;
+    }
+    #ThirdSectionFirstElement h3{
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    #ThirdSectionFirstElement p{
+        font-size: 28px;
+    padding-right: 10px;
+    }
+    #ThirdSectionFirstElement button{
+        border: none;
+        font-size: 17px;
+        background-color: #6306B2;
+        border-radius: 5px;
+        padding: 10px;
+        color: #FFF;
+    }
+
+    #ThirdSectionSecondElement{
+        height: 100%;
+        width: 50%;
+    }
+    #ThirdSectionSecondElement img{
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    /* forth section  */
+
+    #forthSection{
+        margin-top: 10px;
+        background-color: #4A0586;
+        height: 630px;
+        display: flex;
+        color: #FFF;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+    #forthSection h1{
+        color: #FFF;
+        font-weight: 500;
+        font-size: 48px;
+    }
+    #forthSectionTestimonies{
+        display: flex;
+        /* border:1px solid red; */
+        /* width:100%; */
+        gap: 20px;
+        background: linear-gradient(90deg,#4a0586 0,rgba(105,0,197,.404) 50%,#4a0586);
+        padding:20px;
+    }
+
+    #forthSectionTestimoniesSingle{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    #forthSectionTestimoniesSingle div b{
+        font-size:25px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingle div b span{
+        font-size:20px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingleStand{
+        border: 0.5px solid #FFFF;
+    }
+    #forthSectionTestimonyOfUser{
+        display:flex;
+        justify-content:space-between;
+        gap:13px;
+        width:85%;
+        margin-top:10px;
+    }
+
+    #forthSectionTestimonyOfUserFirstChild{
+        background-color:#FFF;
+        border-radius:20px;
+        color:#000;
+        width:33%;
+        padding:35px 23px 0 ;
+    }
+    #forthSectionTestimonyOfUserFirstChild p{
+        font-size:24px;
+        font-weight:450;
+        color:rgb(43, 41, 41);
+        margin-top: 10px;
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+    }
+
+
+    #forthSectionTestimonyOfUserFirstChild div div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+        flex-direction:column;
+        margin-left: 20px;
+        row-gap: 0px;
+        
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div div span{
+    font-size:28px;
+    }
+
+    #StarReaction{
+        margin-top:-10px ;
+    }
+
+    .Partnercontainer{
+    padding:0 40px;
+        
+
+    }
+
+    #PathnersSection{
+        height: 650px;
+        padding-top: 50px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    #PathnersSection h1{
+        color: #202046;
+        font-size:60px;
+        font-weight:500;
+        margin-bottom:20px;
+    }
+
+    #PathnersSectionChild{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    width:100%;
+    gap:10px;
+    
+    }
+
+    #PathnersSectionChild div{
+        width:18%;
+        margin:20px 10px;
+    }
+
+    #Footer{
+        background:#E6E6E6;
+        height:500px;
+        padding:30px;
+    }
+
+    #FooterFirstChild{
+        display:flex;
+        justify-content:space-between;
+    }
+    #FooterFirstChild div{
+        
+    }
+    #FooterFirstChild div h5{
+        font-size:30px;
+        margin:20px 0px;
+    }
+    #FooterFirstChild div p{
+        font-size:20px;
+        cursor:pointer;
+    }
+    #FooterFirstChild div p:hover{
+        font-size:18.5px;
+        color:#1693DE;
+    }
+
+}
+/* media Query for 1043px  to 1000px */
+@media (max-width:1043px) and (min-width:1000px){    
+
+    #container{
+        color: red;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: space-between;
+        height: 500px;
+        
+    }
+
+    .firstSection .childrens{
+        height: 100%;
+    }
+    #firstChild {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 60% !important;
+        /* border: 1px solid red; */
+        row-gap: 20px;
+    }
+    #firstChild h3 {
+    font-size: 52px;
+    font-weight: 400;
+    }
+    #firstChild h3 span {
+    font-size: 55px;
+    font-weight: 500;
+    }
+    #firstChild article {
+        font-size: 18px;
+        padding: 0 80px 0 0;
+    }
+
+    #secondChild {
+        width: 35% !important;
+    }
+
+    .firstSectionchildrensImage {
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+
+
+    /* this is the second section */
+
+    .SecondSection{
+        /* border: 1px solid red ; */
+        height: 590px;
+        display: flex;
+        gap: 40px;
+    }
+
+    #SecondSectionSecondElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        /* border: 1px solid red; */
+    }
+
+    #SecondSectionSecondElement   b{
+    font-size: 40px;
+    font-weight: 600;
+    
+    }
+    #SecondSectionSecondElement   p{
+    font-size: 25px;
+    padding-right: 10px;
+    }
+    #SecondSectionSecondElement   a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #6D06B2   ;
+    font-weight: 600;
+    }
+    #SecondSectionFirstElement{
+        height: 100%;
+        width: 50%;
+        /* border: 1px solid red; */
+    }
+    #SecondSectionFirstElement img{
+        height: 100%;
+    }
+
+
+    /* this is the third section */
+
+    #ThirdSection{
+        height: 600px;
+        display: flex;
+        gap: 40px;
+    }
+
+    #ThirdSectionFirstElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 50%;
+    }
+    #ThirdSectionFirstElement h3{
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    #ThirdSectionFirstElement p{
+        font-size: 28px;
+    padding-right: 10px;
+    }
+    #ThirdSectionFirstElement button{
+        border: none;
+        font-size: 17px;
+        background-color: #6306B2;
+        border-radius: 5px;
+        padding: 10px;
+        color: #FFF;
+    }
+
+    #ThirdSectionSecondElement{
+        height: 100%;
+        width: 50%;
+    }
+    #ThirdSectionSecondElement img{
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    /* forth section  */
+
+    #forthSection{
+        margin-top: 10px;
+        background-color: #4A0586;
+        height: 590px;
+        display: flex;
+        color: #FFF;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+    #forthSection h1{
+        color: #FFF;
+        font-weight: 500;
+        font-size: 48px;
+    }
+    #forthSectionTestimonies{
+        display: flex;
+        /* border:1px solid red; */
+        /* width:100%; */
+        gap: 20px;
+        background: linear-gradient(90deg,#4a0586 0,rgba(105,0,197,.404) 50%,#4a0586);
+        padding:20px;
+    }
+
+    #forthSectionTestimoniesSingle{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    #forthSectionTestimoniesSingle div b{
+        font-size:25px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingle div b span{
+        font-size:20px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingleStand{
+        border: 0.5px solid #FFFF;
+    }
+    #forthSectionTestimonyOfUser{
+        display:flex;
+        justify-content:space-between;
+        gap:13px;
+        width:90%;
+        margin-top:10px;
+        overflow-x:scroll;
+        overflow-y:hidden;
+    }
+
+    #forthSectionTestimonyOfUserFirstChild{
+        background-color:#FFF;
+        border-radius:20px;
+        color:#000;
+        width:500px !important;
+        border:1px solid blue;
+        padding:35px 23px 0 ;
+    }
+    #forthSectionTestimonyOfUserFirstChild p{
+        font-size:24px;
+        font-weight:450;
+        color:rgb(43, 41, 41);
+        margin-top: 10px;
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+    }
+
+
+    #forthSectionTestimonyOfUserFirstChild div div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+        flex-direction:column;
+        margin-left: 20px;
+        row-gap: 0px;
+        
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div div span{
+    font-size:28px;
+    }
+
+    #StarReaction{
+        margin-top:-10px ;
+    }
+
+    .Partnercontainer{
+    padding:0 40px;
+        
+
+    }
+
+    #PathnersSection{
+        height: 650px;
+        padding-top: 50px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    #PathnersSection h1{
+        color: #202046;
+        font-size:60px;
+        font-weight:500;
+    }
+
+    #PathnersSectionChild{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    width:100%;
+    gap:10px;
+    
+    }
+
+    #PathnersSectionChild div{
+        width:18%;
+        margin:20px 10px;
+    }
+
+    #Footer{
+        background:#E6E6E6;
+        height:500px;
+        padding:30px;
+    }
+
+    #FooterFirstChild{
+        display:flex;
+        justify-content:space-between;
+    }
+    #FooterFirstChild div{
+        
+    }
+    #FooterFirstChild div h5{
+        font-size:30px;
+        margin:24px 0px;
+    }
+    #FooterFirstChild div p{
+        font-size:20px;
+        cursor:pointer;
+    }
+    #FooterFirstChild div p:hover{
+        font-size:20px;
+        color:#1693DE;
+    }
+
+}
+@media (max-width:999px) and (min-width:953px){    
+
+    #container{
+        color: red;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: space-between;
+        height: 500px;
+        
+    }
+
+    .firstSection .childrens{
+        height: 100%;
+    }
+    #firstChild {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 60% !important;
+        /* border: 1px solid red; */
+        row-gap: 20px;
+    }
+    #firstChild h3 {
+    font-size: 52px;
+    font-weight: 400;
+    }
+    #firstChild h3 span {
+    font-size: 55px;
+    font-weight: 500;
+    }
+    #firstChild article {
+        font-size: 18px;
+        padding: 0 80px 0 0;
+    }
+
+    #secondChild {
+        width: 35% !important;
+    }
+
+    .firstSectionchildrensImage {
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+
+
+    /* this is the second section */
+
+    .SecondSection{
+        /* border: 1px solid red ; */
+        height: 590px;
+        display: flex;
+        gap: 40px;
+    }
+
+    #SecondSectionSecondElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        /* border: 1px solid red; */
+    }
+
+    #SecondSectionSecondElement   b{
+    font-size: 40px;
+    font-weight: 600;
+    
+    }
+    #SecondSectionSecondElement   p{
+    font-size: 25px;
+    padding-right: 10px;
+    }
+    #SecondSectionSecondElement   a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #6D06B2   ;
+    font-weight: 600;
+    }
+    #SecondSectionFirstElement{
+        height: 100%;
+        width: 50%;
+        /* border: 1px solid red; */
+    }
+    #SecondSectionFirstElement img{
+        height: 100%;
+    }
+
+
+    /* this is the third section */
+
+    #ThirdSection{
+        height: 600px;
+        display: flex;
+        gap: 40px;
+    }
+
+    #ThirdSectionFirstElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 50%;
+    }
+    #ThirdSectionFirstElement h3{
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    #ThirdSectionFirstElement p{
+        font-size: 28px;
+    padding-right: 10px;
+    }
+    #ThirdSectionFirstElement button{
+        border: none;
+        font-size: 17px;
+        background-color: #6306B2;
+        border-radius: 5px;
+        padding: 10px;
+        color: #FFF;
+    }
+
+    #ThirdSectionSecondElement{
+        height: 100%;
+        width: 50%;
+    }
+    #ThirdSectionSecondElement img{
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    /* forth section  */
+
+    #forthSection{
+        margin-top: 10px;
+        background-color: #4A0586;
+        height: 620px;
+        display: flex;
+        color: #FFF;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+    #forthSection h1{
+        color: #FFF;
+        font-weight: 500;
+        font-size: 48px;
+    }
+    #forthSectionTestimonies{
+        display: flex;
+        /* border:1px solid red; */
+        /* width:100%; */
+        gap: 20px;
+        background: linear-gradient(90deg,#4a0586 0,rgba(105,0,197,.404) 50%,#4a0586);
+        padding:20px;
+    }
+
+    #forthSectionTestimoniesSingle{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    #forthSectionTestimoniesSingle div b{
+        font-size:25px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingle div b span{
+        font-size:20px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingleStand{
+        border: 0.5px solid #FFFF;
+    }
+    #forthSectionTestimonyOfUser{
+        display:flex;
+        justify-content:space-between;
+        gap:13px;
+        width:90%;
+        margin-top:10px;
+        overflow-x:scroll;
+        overflow-y:hidden;
+    }
+
+    #forthSectionTestimonyOfUserFirstChild{
+        background-color:#FFF;
+        border-radius:20px;
+        color:#000;
+        width:500px !important;
+        border:1px solid blue;
+        padding:35px 23px 0 ;
+    }
+    #forthSectionTestimonyOfUserFirstChild p{
+        font-size:24px;
+        font-weight:450;
+        color:rgb(43, 41, 41);
+        margin-top: 10px;
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+    }
+
+
+    #forthSectionTestimonyOfUserFirstChild div div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+        flex-direction:column;
+        margin-left: 20px;
+        row-gap: 0px;
+        
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div div span{
+    font-size:28px;
+    }
+
+    #StarReaction{
+        margin-top:-10px ;
+    }
+
+    .Partnercontainer{
+    padding:0 30px;
+        
+
+    }
+
+    #PathnersSection{
+        height: 670px;
+        padding-top: 50px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    #PathnersSection h1{
+        color: #202046;
+        font-size:60px;
+        font-weight:500;
+    }
+
+    #PathnersSectionChild{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    width:100%;
+    gap:10px;
+    
+    }
+
+    #PathnersSectionChild div{
+        width:18%;
+        margin:20px 10px;
+    }
+
+    #Footer{
+        background:#E6E6E6;
+        height:500px;
+        padding: 20px 10px;
+    }
+
+    #FooterFirstChild{
+        display:flex;
+        justify-content:space-between;
+    }
+    #FooterFirstChild div{
+        
+    }
+    #FooterFirstChild div h5{
+        font-size:30px;
+        margin:24px 0px;
+    }
+    #FooterFirstChild div p{
+        font-size:20px;
+        cursor:pointer;
+    }
+    #FooterFirstChild div p:hover{
+        font-size:20px;
+        color:#1693DE;
+    }
+
+}
+@media (max-width:952px) and (min-width:840px){    
+
+    #container{
+        color: red;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: space-between;
+        height: 500px;
+        
+    }
+
+    .firstSection .childrens{
+        height: 100%;
+    }
+    #firstChild {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 60% !important;
+        /* border: 1px solid red; */
+        row-gap: 20px;
+    }
+    #firstChild h3 {
+    font-size: 52px;
+    font-weight: 400;
+    }
+    #firstChild h3 span {
+    font-size: 55px;
+    font-weight: 500;
+    }
+    #firstChild article {
+        font-size: 25px;
+        padding: 0 80px 0 0;
+    }
+
+    #secondChild {
+        width: 35% !important;
+    }
+
+    .firstSectionchildrensImage {
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+
+
+    /* this is the second section */
+
+    .SecondSection{
+        /* border: 1px solid red ; */
+        height: 590px;
+        display: flex;
+        gap: 40px;
+    }
+
+    #SecondSectionSecondElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        width:52%;
+        /* border: 1px solid red; */
+    }
+
+    #SecondSectionSecondElement   b{
+    font-size: 40px;
+    font-weight: 600;
+    
+    }
+    #SecondSectionSecondElement   p{
+    font-size: 25px;
+    padding-right: 10px;
+    }
+    #SecondSectionSecondElement   a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #6D06B2   ;
+    font-weight: 600;
+    }
+    #SecondSectionFirstElement{
+        height: 100%;
+        width: 48%;
+        /* border: 1px solid red; */
+    }
+    #SecondSectionFirstElement img{
+        height: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+
+    /* this is the third section */
+
+    #ThirdSection{
+        height: 600px;
+        display: flex;
+        gap: 40px;
+    }
+
+    #ThirdSectionFirstElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 50%;
+    }
+    #ThirdSectionFirstElement h3{
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    #ThirdSectionFirstElement p{
+        font-size: 28px;
+    padding-right: 10px;
+    }
+    #ThirdSectionFirstElement button{
+        border: none;
+        font-size: 17px;
+        background-color: #6306B2;
+        border-radius: 5px;
+        padding: 10px;
+        color: #FFF;
+    }
+
+    #ThirdSectionSecondElement{
+        height: 100%;
+        width: 50%;
+    }
+    #ThirdSectionSecondElement img{
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    /* forth section  */
+
+    #forthSection{
+        margin-top: 10px;
+        background-color: #4A0586;
+        height: 620px;
+        display: flex;
+        color: #FFF;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+    #forthSection h1{
+        color: #FFF;
+        font-weight: 500;
+        font-size: 54px;
+    }
+    #forthSectionTestimonies{
+        display: flex;
+        /* border:1px solid red; */
+        /* width:100%; */
+        gap: 20px;
+        background: linear-gradient(90deg,#4a0586 0,rgba(105,0,197,.404) 50%,#4a0586);
+        padding: 30px 20px;
+    }
+
+    #forthSectionTestimoniesSingle{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    #forthSectionTestimoniesSingle div b{
+        font-size:25px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingle div b span{
+        font-size:20px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingleStand{
+        border: 0.5px solid #FFFF;
+    }
+    #forthSectionTestimonyOfUser{
+        display:flex;
+        justify-content:space-between;
+        gap:13px;
+        width:90%;
+        margin-top:10px;
+        overflow-x:scroll;
+        overflow-y:hidden;
+    }
+
+    #forthSectionTestimonyOfUserFirstChild{
+        background-color:#FFF;
+        border-radius:20px;
+        color:#000;
+        min-width:400px;
+        border:1px solid blue;
+        padding:35px 23px 0 ;
+    }
+    #forthSectionTestimonyOfUserFirstChild p{
+        font-size:24px;
+        font-weight:450;
+        color:rgb(43, 41, 41);
+        margin-top: 10px;
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+    }
+
+
+    #forthSectionTestimonyOfUserFirstChild div div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+        flex-direction:column;
+        margin-left: 20px;
+        row-gap: 0px;
+        
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div div span{
+    font-size:28px;
+    }
+
+    #StarReaction{
+        margin-top:-10px ;
+    }
+
+    .Partnercontainer{
+    padding:0 20px;
+        
+
+    }
+
+    #PathnersSection{
+        height: 900px;
+        padding-top: 50px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    #PathnersSection h1{
+        color: #202046;
+        font-size:60px;
+        font-weight:500;
+    }
+
+    #PathnersSectionChild{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    width:100%;
+    gap:10px;
+    /* border:1px solid red; */
+    align-items:center;
+    
+    }
+
+    #PathnersSectionChild div{
+    width:30%;
+    /* border:1px solid red; */
+     margin:20px 10px;
+     display:flex;
+     justify-content:space-around;
+    }
+
+    #Footer{
+        background:#E6E6E6;
+        height:950px;
+        padding: 20px 10px;
+    }
+
+    #FooterFirstChild{
+        display:flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+    }
+
+    #FooterFirstChild div{
+        
+    }
+
+    #SpecialDiv{
+        width:40%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        margin-top:20px;
+    }
+
+    #FooterFirstChild div h5{
+        font-size:35px;
+        margin:24px 0px;
+    }
+    #FooterFirstChild div p{
+        font-size:24px;
+        cursor:pointer;
+
+    }
+    #FooterFirstChild div p:hover{
+        font-size:20px;
+        color:#1693DE;
+    }
+
+}
+@media (max-width:839px) and (min-width:771px){    
+
+    #container{
+        color: red;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: stretch;
+        flex-direction:column;
+        height: 950px;
+        margin-top:20px;
+        /* border: 1px solid red; */
+    }
+
+    .firstSection .childrens{
+        height: 50%;
+    }
+    #firstChild {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100% !important;
+        row-gap: 20px;
+        height:50% !important;
+    }
+    #firstChild h3 {
+    font-size: 58px;
+    font-weight: 400;
+    text-align:center;
+    }
+    #firstChild h3 span {
+    font-size: 55px;
+    font-weight: 500;
+    }
+    #firstChild article {
+        font-size: 26px;
+        padding: 0 80px 0 0;
+        font-weight:500;
+    }
+
+    #secondChild {
+        width: 100% !important;
+        min-height:50%;
+        /* border:1px solid red; */
+        display:flex;
+        align-items:center;
+        justify-content:space-around;
+
+    }
+
+    .firstSectionchildrensImage {
+        min-height: 100% !important;
+        max-height: 100% !important;
+        width: 80% !important;
+    }
+
+
+
+    /* this is the second section */
+
+    .SecondSection{
+        /* border: 1px solid red; */
+        height: 1300px;
+        display: flex;
+        flex-direction:column;
+        gap: 40px;
+        margin-top:40px;
+    }
+
+    #SecondSectionSecondElement{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        height:50%;
+        transform:translate(0px,-20px);
+    }
+
+    #SecondSectionSecondElement   b{
+    font-size: 45px;
+    text-align:center;
+    font-weight: 600;
+    
+    }
+    #SecondSectionSecondElement   p{
+    font-size: 28px;
+    padding-right: 0px;
+
+    }
+    #SecondSectionSecondElement   a{
+    font-size: 32px;
+    text-decoration: none;
+    color: #6D06B2;
+    text-align:center;
+    display:block;
+    font-weight: 600;
+    }
+
+    #SecondSectionFirstElement{
+        min-height: 50%;
+        max-height: 50%;
+        width: 100%;
+        display:flex;
+        justify-content:space-around;
+    }
+
+    #SecondSectionFirstElement img{
+       min-width: 80%;
+       max-width: 80%;
+        height: 100%;
+    }
+
+
+    /* this is the third section */
+
+    #ThirdSection{
+        height: 1400px;
+        display: flex;
+        gap: 0px;
+        flex-direction:column-reverse;
+        justify-content:space-around;
+    }
+
+    #ThirdSectionFirstElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+    }
+    #ThirdSectionFirstElement h3{
+        font-size: 54px;
+        font-weight: 600;
+        
+    }
+
+    #ThirdSectionFirstElement p{
+        font-size: 30px;
+    padding-right: 20px;
+    }
+
+    #ThirdSectionFirstElement button{
+        border: none;
+        display:block;
+        align-self:center;
+        font-size: 20px;
+        background-color: #6306B2;
+        border-radius: 10px;
+        padding: 20px;
+        color: #FFF;
+    }
+
+    #ThirdSectionSecondElement{
+        height: 50%;
+        width: 100%;
+        display:flex;
+        justify-content:space-around;
+    }
+
+    #ThirdSectionSecondElement img{
+       min-height: 100% !important;
+       max-height: 100% !important;
+        min-width: 80% !important;
+        max-width: 80% !important;
+    }
+
+    /* forth section  */
+
+    #forthSection{
+        margin-top: 10px;
+        background-color: #4A0586;
+        height: 550px;
+        display: flex;
+        color: #FFF;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+    #forthSection h1{
+        color: #FFF;
+        font-weight: 500;
+        font-size: 48px;
+    }
+    #forthSectionTestimonies{
+        display: flex;
+        gap: 20px;
+        background: linear-gradient(90deg,#4a0586 0,rgba(105,0,197,.404) 50%,#4a0586);
+        padding:20px;
+    }
+
+    #forthSectionTestimoniesSingle{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    #forthSectionTestimoniesSingle div b{
+        font-size:25px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingle div b span{
+        font-size:20px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingleStand{
+        border: 0.5px solid #FFFF;
+    }
+    #forthSectionTestimonyOfUser{
+        display:flex;
+        justify-content:space-between;
+        gap:13px;
+        width:90%;
+        margin-top:10px;
+        overflow-x:scroll;
+        overflow-y:hidden;
+    }
+
+    #forthSectionTestimonyOfUserFirstChild{
+        background-color:#FFF;
+        border-radius:20px;
+        color:#000;
+        min-width:330px; 
+        padding:35px 20px 0;
+        /* border:1px solid red; */
+    }
+    #forthSectionTestimonyOfUserFirstChild p{
+        font-size:24px;
+        font-weight:450;
+        color:rgb(43, 41, 41);
+        margin-top: 10px;
+
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+    }
+
+
+    #forthSectionTestimonyOfUserFirstChild div div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+        flex-direction:column;
+        margin-left: 20px;
+        row-gap: 0px;
+        
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div div span{
+    font-size:28px;
+    }
+
+    #StarReaction{
+        margin-top:-10px ;
+    }
+
+    .Partnercontainer{
+    padding:0 10px;
+        
+
+    }
+
+    #PathnersSection{
+        height: 830px;
+        padding-top: 30px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        /* border:1px solid green; */
+        /* padding:0; */
+    }
+
+    #PathnersSection h1{
+        height: 15%;
+        color: #202046;
+        font-size:55px;
+        font-weight:600;
+        margin-bottom:20px;
+    }
+
+    #PathnersSectionChild{
+     display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    width:100%;
+    gap:10px;
+    height:80%;
+    /* border:1px solid red; */
+    }
+
+    #PathnersSectionChild div{
+        width:24%;
+        margin:20px 10px;
+    }
+    .smallDeviceDn{
+       display:none;
+    }
+
+    #Footer{
+        background:#E6E6E6;
+        height:860px;
+        padding:10px;
+    }
+
+    #FooterFirstChild{
+        display:flex;
+        justify-content:space-between;
+        flex-direction:row;
+        align-items:center;
+        flex-wrap:wrap;
+    }
+    #SpecialDiv{
+        width:40%;
+        /* border:1px solid red;  */
+        display:flex;
+        flex-direction:column;
+        align-items:center
+    }
+    .SpecialDiv{
+        width:100% !important;
+        align-self:center;
+        /* border:1px solid red;  */
+    }
+    #FooterFirstChild div h5{
+        font-size:38px;
+        margin:20px 0px;
+    }
+    
+    #socialMedials{
+        display:flex;
+        width:100% !important;
+        margin-top:10px;
+        /* border:1px solid red;  */
+    }
+    #socialMedials img{
+        display:flex;
+        /* width:100% !important; */
+        margin:0 40px;
+        /* border:1px solid red;  */
+    }
+    #FooterFirstChild div p{
+        font-size:24px;
+        cursor:pointer;
+    }
+    #FooterFirstChild div p:hover{
+        font-size:18.5px;
+        color:#1693DE;
+    }
+
+}
+/* media Query for 770px downward */
+@media (max-width:770px) and (min-width:694px){   
+
+    #container{
+        color: red;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: stretch;
+        flex-direction:column;
+        height: 1000px;
+        margin-top:20px;
+        /* border: 1px solid red; */
+    }
+
+    .firstSection .childrens{
+        height: 50%;
+    }
+    #firstChild {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100% !important;
+        row-gap: 20px;
+        height:50% !important;
+    }
+    #firstChild h3 {
+    font-size: 58px;
+    font-weight: 400;
+    text-align:center;
+    }
+    #firstChild h3 span {
+    font-size: 55px;
+    font-weight: 500;
+    }
+    #firstChild article {
+        font-size: 26px;
+        padding: 0 80px 0 0;
+        font-weight:500;
+    }
+
+    #secondChild {
+        width: 100% !important;
+    }
+
+    .firstSectionchildrensImage {
+        height: 80% !important;
+        width: 100% !important;
+    }
+
+
+
+    /* this is the second section */
+
+    .SecondSection{
+        /* border: 1px solid red; */
+        height: 1300px;
+        display: flex;
+        flex-direction:column;
+        gap: 40px;
+    }
+
+    #SecondSectionSecondElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        height:50%;
+        /* border: 1px solid red; */
+    }
+
+    #SecondSectionSecondElement   b{
+    font-size: 45px;
+    text-align:center;
+    font-weight: 600;
+    
+    }
+    #SecondSectionSecondElement   p{
+    font-size: 28px;
+    padding-right: 0px;
+
+    }
+    #SecondSectionSecondElement   a{
+    font-size: 32px;
+    text-decoration: none;
+    color: #6D06B2;
+    text-align:center;
+    display:block;
+    font-weight: 600;
+    }
+    #SecondSectionFirstElement{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    #SecondSectionFirstElement img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* this is the third section */
+
+    #ThirdSection{
+        height: 1400px;
+        display: flex;
+        gap: 0px;
+        flex-direction:column-reverse;
+        /* border:1px solid red; */
+        justify-content:space-around;
+    }
+
+    #ThirdSectionFirstElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+    }
+    #ThirdSectionFirstElement h3{
+        font-size: 54px;
+        font-weight: 600;
+        
+    }
+    #ThirdSectionFirstElement p{
+        font-size: 30px;
+    padding-right: 20px;
+    }
+    #ThirdSectionFirstElement button{
+        border: none;
+        display:block;
+        align-self:center;
+        font-size: 20px;
+        background-color: #6306B2;
+        border-radius: 10px;
+        padding: 20px;
+        color: #FFF;
+    }
+
+    #ThirdSectionSecondElement{
+        height: 50%;
+        width: 100%;
+        /* border:1px solid red; */
+    }
+    #ThirdSectionSecondElement img{
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    /* forth section  */
+
+    #forthSection{
+        margin-top: 10px;
+        background-color: #4A0586;
+        height: 550px;
+        display: flex;
+        color: #FFF;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+    #forthSection h1{
+        color: #FFF;
+        font-weight: 500;
+        font-size: 48px;
+    }
+    #forthSectionTestimonies{
+        display: flex;
+        gap: 20px;
+        width:100%;
+        background: linear-gradient(90deg,#4a0586 0,rgba(105,0,197,.404) 50%,#4a0586);
+        padding:20px;
+    }
+
+    #forthSectionTestimoniesSingle{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    #forthSectionTestimoniesSingle div b{
+        font-size:25px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingle div b span{
+        font-size:20px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingleStand{
+        border: 0.5px solid #FFFF;
+    }
+    #forthSectionTestimonyOfUser{
+        display:flex;
+        justify-content:space-between;
+        gap:13px;
+        width:90%;
+        margin-top:10px;
+        overflow-x:scroll;
+        overflow-y:hidden;
+    }
+
+    #forthSectionTestimonyOfUserFirstChild{
+        background-color:#FFF;
+        border-radius:20px;
+        color:#000;
+        min-width:330px; 
+        padding:35px 20px 0;
+        /* border:1px solid red; */
+    }
+    #forthSectionTestimonyOfUserFirstChild p{
+        font-size:24px;
+        font-weight:450;
+        color:rgb(43, 41, 41);
+        margin-top: 10px;
+
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+    }
+
+
+    #forthSectionTestimonyOfUserFirstChild div div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+        flex-direction:column;
+        margin-left: 20px;
+        row-gap: 0px;
+        
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div div span{
+    font-size:28px;
+    }
+
+    #StarReaction{
+        margin-top:-10px ;
+    }
+
+    .Partnercontainer{
+    padding:0 10px;
+        
+
+    }
+
+    #PathnersSection{
+        height: 830px;
+        padding-top: 30px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        /* border:1px solid green; */
+        /* padding:0; */
+    }
+
+    #PathnersSection h1{
+        height: 15%;
+        color: #202046;
+        font-size:55px;
+        font-weight:600;
+        margin-bottom:20px;
+    }
+
+    #PathnersSectionChild{
+     display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    width:100%;
+    gap:10px;
+    height:80%;
+    /* border:1px solid red; */
+    }
+
+    #PathnersSectionChild div{
+        width:24%;
+        margin:20px 10px;
+    }
+    .smallDeviceDn{
+       display:none;
+    }
+
+    #Footer{
+        background:#E6E6E6;
+        height:860px;
+        padding:10px;
+    }
+
+    #FooterFirstChild{
+        display:flex;
+        justify-content:space-between;
+        flex-direction:row;
+        align-items:center;
+        flex-wrap:wrap;
+    }
+    #SpecialDiv{
+        width:40%;
+        /* border:1px solid red;  */
+        display:flex;
+        flex-direction:column;
+        align-items:center
+    }
+    .SpecialDiv{
+        width:100% !important;
+        align-self:center;
+        /* border:1px solid red;  */
+    }
+    #FooterFirstChild div h5{
+        font-size:38px;
+        margin:20px 0px;
+    }
+    
+    #socialMedials{
+        display:flex;
+        width:100% !important;
+        margin-top:10px;
+        /* border:1px solid red;  */
+    }
+    #socialMedials img{
+        display:flex;
+        /* width:100% !important; */
+        margin:0 40px;
+        /* border:1px solid red;  */
+    }
+    #FooterFirstChild div p{
+        font-size:24px;
+        cursor:pointer;
+    }
+    #FooterFirstChild div p:hover{
+        font-size:18.5px;
+        color:#1693DE;
+    }
+
+}
+@media (max-width:694px) and (min-width:610px){   
+
+    #container{
+        color: red;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: stretch;
+        flex-direction:column;
+        height: 1000px;
+        margin-top:20px;
+        /* border: 1px solid red; */
+    }
+
+    .firstSection .childrens{
+        height: 50%;
+    }
+    #firstChild {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100% !important;
+        row-gap: 20px;
+        height:50% !important;
+    }
+    #firstChild h3 {
+    font-size: 58px;
+    font-weight: 400;
+    text-align:center;
+    }
+    #firstChild h3 span {
+    font-size: 55px;
+    font-weight: 500;
+    }
+    #firstChild article {
+        font-size: 26px;
+        padding: 0 50px 0 0;
+        font-weight:500;
+    }
+
+    #secondChild {
+        width: 100% !important;
+    }
+
+    .firstSectionchildrensImage {
+        height: 80% !important;
+        width: 100% !important;
+    }
+
+
+
+    /* this is the second section */
+
+    .SecondSection{
+        height: 1300px;
+        display: flex;
+        flex-direction:column;
+        gap: 40px;
+    }
+
+    #SecondSectionSecondElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        height:50%;
+    }
+
+    #SecondSectionSecondElement   b{
+    font-size: 45px;
+    text-align:center;
+    font-weight: 600;
+    
+    }
+    #SecondSectionSecondElement   p{
+    font-size: 28px;
+    padding-right: 0px;
+
+    }
+    #SecondSectionSecondElement   a{
+    font-size: 32px;
+    text-decoration: none;
+    color: #6D06B2;
+    text-align:center;
+    display:block;
+    font-weight: 600;
+    }
+    #SecondSectionFirstElement{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    #SecondSectionFirstElement img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* this is the third section */
+
+    #ThirdSection{
+        height: 1400px;
+        display: flex;
+        gap: 0px;
+        flex-direction:column-reverse;
+        /* border:1px solid red; */
+        justify-content:space-around;
+    }
+
+    #ThirdSectionFirstElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+    }
+    #ThirdSectionFirstElement h3{
+        font-size: 54px;
+        font-weight: 600;
+        
+    }
+    #ThirdSectionFirstElement p{
+        font-size: 30px;
+    padding-right: 20px;
+    }
+    #ThirdSectionFirstElement button{
+        border: none;
+        display:block;
+        align-self:center;
+        font-size: 20px;
+        background-color: #6306B2;
+        border-radius: 10px;
+        padding: 20px;
+        color: #FFF;
+    }
+
+    #ThirdSectionSecondElement{
+        height: 50%;
+        width: 100%;
+        /* border:1px solid red; */
+    }
+    #ThirdSectionSecondElement img{
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    /* forth section  */
+
+    #forthSection{
+        margin-top: 10px;
+        background-color: #4A0586;
+        height: 750px;
+        display: flex;
+        color: #FFF;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+    #forthSection h1{
+        color: #FFF;
+        font-weight: 500;
+        font-size: 46px;
+        margin-bottom:30px;
+        
+    }
+    
+    #forthSectionTestimonies{
+        display: flex;
+        gap: 20px;
+        width:100%;
+        background: linear-gradient(90deg,#4a0586 0,rgba(105,0,197,.404) 50%,#4a0586);
+        padding:20px;
+        flex-direction:column;
+        align-items:center;
+        margin-bottom:30px;
+
+    }
+
+    #forthSectionTestimoniesSingle{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    #forthSectionTestimoniesSingle div b{
+        font-size:25px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingle div b span{
+        font-size:20px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingleStand{
+        border: 0.5px solid #FFFF;
+        width:30%;
+        display:block;
+        align-self:center;
+    }
+    #forthSectionTestimonyOfUser{
+        display:flex;
+        justify-content:space-between;
+        gap:13px;
+        width:90%;
+        margin-top:10px;
+        overflow-x:scroll;
+        overflow-y:hidden;
+    }
+
+    #forthSectionTestimonyOfUserFirstChild{
+        background-color:#FFF;
+        border-radius:20px;
+        color:#000;
+        min-width:430px; 
+        padding:48px 20px 0;
+        /* border:1px solid red; */
+    }
+    #forthSectionTestimonyOfUserFirstChild p{
+        font-size:24px;
+        font-weight:450;
+        color:rgb(43, 41, 41);
+        margin-top: 10px;
+
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+    }
+
+
+    #forthSectionTestimonyOfUserFirstChild div div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+        flex-direction:column;
+        margin-left: 20px;
+        row-gap: 0px;
+        
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div div span{
+    font-size:28px;
+    }
+
+    #StarReaction{
+        margin-top:-10px ;
+    }
+
+    .Partnercontainer{
+    padding:0 10px;
+        /* border:1px solid red; */
+
+    }
+
+    #PathnersSection{
+        height: 830px;
+        padding-top: 30px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        /* border:1px solid green; */
+        /* padding:0; */
+    }
+
+    #PathnersSection h1{
+        height: 15%;
+        color: #202046;
+        font-size:55px;
+        font-weight:600;
+        margin-bottom:20px;
+    }
+
+    #PathnersSectionChild{
+     display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    width:100%;
+    gap:10px;
+    height:80%;
+    /* border:1px solid red; */
+    }
+
+    #PathnersSectionChild div{
+        width:24%;
+        margin:20px 10px;
+    }
+    .smallDeviceDn{
+       display:none;
+    }
+
+    #Footer{
+        background:#E6E6E6;
+        height:860px;
+        padding:10px;
+    }
+
+    #FooterFirstChild{
+        display:flex;
+        justify-content:space-between;
+        flex-direction:row;
+        align-items:center;
+        flex-wrap:wrap;
+    }
+    #SpecialDiv{
+        width:40%;
+        /* border:1px solid red;  */
+        display:flex;
+        flex-direction:column;
+        align-items:center
+    }
+    .SpecialDiv{
+        width:100% !important;
+        align-self:center;
+        /* border:1px solid red;  */
+    }
+    #FooterFirstChild div h5{
+        font-size:38px;
+        margin:20px 0px;
+    }
+    
+    #socialMedials{
+        display:flex;
+        width:100% !important;
+        margin-top:10px;
+        /* border:1px solid red;  */
+    }
+    #socialMedials img{
+        display:flex;
+        /* width:100% !important; */
+        margin:0 40px;
+        /* border:1px solid red;  */
+    }
+    #FooterFirstChild div p{
+        font-size:24px;
+        cursor:pointer;
+    }
+    #FooterFirstChild div p:hover{
+        font-size:18.5px;
+        color:#1693DE;
+    }
+
+}
+@media (max-width:610px) and (min-width:454px){   
+
+    #container{
+        color: red;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: stretch;
+        flex-direction:column;
+        height: 1000px;
+        margin-top:20px;
+    }
+
+    .firstSection .childrens{
+        height: 50%;
+    }
+    #firstChild {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100% !important;
+        row-gap: 20px;
+        height:50% !important;
+    }
+    #firstChild h3 {
+    font-size: 58px;
+    font-weight: 500;
+    text-align:center;
+    }
+    #firstChild h3 span {
+    font-size: 55px;
+    font-weight: 500;
+    }
+    #firstChild article {
+        font-size: 26px;
+        padding: 0 0px 0 0;
+        font-weight:500;
+        text-align:center;
+    }
+
+    #secondChild {
+        width: 100% !important;
+    }
+
+    .firstSectionchildrensImage {
+        height: 80% !important;
+        width: 100% !important;
+    }
+
+
+
+    /* this is the second section */
+
+    .SecondSection{
+        /* border: 1px solid red; */
+        height: 1300px;
+        display: flex;
+        flex-direction:column;
+        gap: 40px;
+    }
+
+    #SecondSectionSecondElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        height:50%;
+        /* border: 1px solid red; */
+    }
+
+    #SecondSectionSecondElement   b{
+    font-size: 45px;
+    text-align:center;
+    font-weight: 600;
+    
+    }
+    #SecondSectionSecondElement   p{
+    font-size: 28px;
+    padding-right: 0px;
+
+    }
+    #SecondSectionSecondElement   a{
+    font-size: 32px;
+    text-decoration: none;
+    color: #6D06B2;
+    text-align:center;
+    display:block;
+    font-weight: 600;
+    }
+    #SecondSectionFirstElement{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    #SecondSectionFirstElement img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* this is the third section */
+
+    #ThirdSection{
+        height: 1400px;
+        display: flex;
+        gap: 0px;
+        flex-direction:column-reverse;
+        /* border:1px solid red; */
+        justify-content:space-around;
+    }
+
+    #ThirdSectionFirstElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+    }
+    #ThirdSectionFirstElement h3{
+        font-size: 54px;
+        font-weight: 600;
+        
+    }
+    #ThirdSectionFirstElement p{
+        font-size: 30px;
+    padding-right: 20px;
+    }
+    #ThirdSectionFirstElement button{
+        border: none;
+        display:block;
+        align-self:center;
+        font-size: 20px;
+        background-color: #6306B2;
+        border-radius: 10px;
+        padding: 20px;
+        color: #FFF;
+    }
+
+    #ThirdSectionSecondElement{
+        height: 50%;
+        width: 100%;
+        /* border:1px solid red; */
+    }
+    #ThirdSectionSecondElement img{
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    /* forth section  */
+
+    #forthSection{
+        margin-top: 10px;
+        background-color: #4A0586;
+        height: 750px;
+        display: flex;
+        color: #FFF;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+    #forthSection h1{
+        color: #FFF;
+        font-weight: 500;
+        font-size: 46px;
+        margin-bottom:30px;
+        
+    }
+    
+    #forthSectionTestimonies{
+        display: flex;
+        gap: 20px;
+        width:100%;
+        background: linear-gradient(90deg,#4a0586 0,rgba(105,0,197,.404) 50%,#4a0586);
+        padding:20px;
+        flex-direction:column;
+        align-items:center;
+        margin-bottom:30px;
+
+    }
+
+    #forthSectionTestimoniesSingle{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    #forthSectionTestimoniesSingle div b{
+        font-size:25px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingle div b span{
+        font-size:20px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingleStand{
+        border: 0.5px solid #FFFF;
+        width:30%;
+        display:block;
+        align-self:center;
+    }
+    #forthSectionTestimonyOfUser{
+        display:flex;
+        justify-content:space-between;
+        gap:13px;
+        width:90%;
+        margin-top:10px;
+        overflow-x:scroll;
+        overflow-y:hidden;
+    }
+
+    #forthSectionTestimonyOfUserFirstChild{
+        background-color:#FFF;
+        border-radius:20px;
+        color:#000;
+        min-width:430px; 
+        padding:48px 20px 0;
+        /* border:1px solid red; */
+    }
+    #forthSectionTestimonyOfUserFirstChild p{
+        font-size:24px;
+        font-weight:450;
+        color:rgb(43, 41, 41);
+        margin-top: 10px;
+
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+    }
+
+
+    #forthSectionTestimonyOfUserFirstChild div div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+        flex-direction:column;
+        margin-left: 20px;
+        row-gap: 0px;
+        
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div div span{
+    font-size:28px;
+    }
+
+    #StarReaction{
+        margin-top:-10px ;
+    }
+
+    .Partnercontainer{
+    padding:0 10px;
+        
+    }
+    
+    #PathnersSection{
+        height: 1040px;
+        padding-top: 30px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    #PathnersSection h1{
+        height: 15%;
+        color: #202046;
+        font-size:55px;
+        font-weight:600;
+        margin-bottom:20px;
+    }
+
+    #PathnersSectionChild{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    width:100%;
+    gap:10px;
+    height:80%;
+    }
+
+    #PathnersSectionChild div{
+        width:44%;
+        margin:20px 10px;
+        display:flex;
+        justify-content:space-around;
+        
+    }
+
+    .smallDeviceDn{
+       display:none !important;
+    }
+
+    #Footer{
+        background:#E6E6E6;
+        height:860px;
+        padding:10px;
+        width:100%;
+    }
+
+    #FooterFirstChild{
+        display:flex;
+        justify-content:space-between;
+        flex-direction:row;
+        align-items:center;
+        flex-wrap:wrap;
+    }
+    #SpecialDiv{
+        width:40%;
+        display:flex;
+        flex-direction:column;
+        align-items:center
+    }
+    .SpecialDiv{
+        width:100% !important;
+        align-self:center;
+    }
+    #FooterFirstChild div h5{
+        font-size:38px;
+        margin:20px 0px;
+    }
+    
+    #socialMedials{
+        display:flex;
+        width:100% !important;
+        margin-top:10px;
+    }
+
+    #socialMedials img{
+        display:flex;
+        /* width:100% !important; */
+        margin:0 10px;
+        /* border:1px solid red;  */
+    }
+    #FooterFirstChild div p{
+        font-size:24px;
+        cursor:pointer;
+    }
+    #FooterFirstChild div p:hover{
+        font-size:18.5px;
+        color:#1693DE;
+    }
+
+}
+@media (max-width:454px) and (min-width:326px){   
+
+    #container{
+        color: red;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: stretch;
+        flex-direction:column;
+        height: 900px;
+        margin:20px 0;
+    }
+
+    .firstSection .childrens{
+        height: 50%;
+    }
+    #firstChild {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100% !important;
+        row-gap: 20px;
+        height:50% !important;
+    }
+    #firstChild h3 {
+    font-size: 58px;
+    font-weight: 500;
+    text-align:center;
+    }
+    #firstChild h3 span {
+    font-size: 55px;
+    font-weight: 500;
+    }
+    #firstChild article {
+        font-size: 26px;
+        padding: 0 0px 0 0;
+        font-weight:500;
+    }
+
+    #secondChild {
+        width: 100% !important;
+        height:100%;
+    }
+
+    .firstSectionchildrensImage {
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+
+
+    /* this is the second section */
+
+    .SecondSection{
+        /* border: 1px solid red; */
+        height: 1300px;
+        display: flex;
+        flex-direction:column;
+        gap: 40px;
+    }
+
+    #SecondSectionSecondElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        height:50%;
+        /* border: 1px solid red; */
+    }
+
+    #SecondSectionSecondElement   b{
+    font-size: 45px;
+    text-align:center;
+    font-weight: 600;
+    
+    }
+    #SecondSectionSecondElement   p{
+    font-size: 28px;
+    padding-right: 0px;
+
+    }
+    #SecondSectionSecondElement   a{
+    font-size: 32px;
+    text-decoration: none;
+    color: #6D06B2;
+    text-align:center;
+    display:block;
+    font-weight: 600;
+    }
+    #SecondSectionFirstElement{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    #SecondSectionFirstElement img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* this is the third section */
+
+    #ThirdSection{
+        height: 1400px;
+        display: flex;
+        gap: 0px;
+        flex-direction:column-reverse;
+        /* border:1px solid red; */
+        justify-content:space-around;
+    }
+
+    #ThirdSectionFirstElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+    }
+    #ThirdSectionFirstElement h3{
+        font-size: 54px;
+        font-weight: 600;
+        
+    }
+    #ThirdSectionFirstElement p{
+        font-size: 30px;
+    padding-right: 20px;
+    }
+    #ThirdSectionFirstElement button{
+        border: none;
+        display:block;
+        align-self:center;
+        font-size: 20px;
+        background-color: #6306B2;
+        border-radius: 10px;
+        padding: 20px;
+        color: #FFF;
+    }
+
+
+    #ThirdSectionSecondElement{
+        height: 50%;
+        width: 100%;
+        /* border:1px solid red; */
+        padding-top: 23px;
+    }
+    #ThirdSectionSecondElement img{
+        height: 80% !important;
+        width: 100% !important;
+    }
+
+    /* forth section  */
+
+    #forthSection{
+        margin-top: 10px;
+        background-color: #4A0586;
+        height: 750px;
+        display: flex;
+        color: #FFF;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+    #forthSection h1{
+        color: #FFF;
+        font-weight: 500;
+        font-size: 40px;
+        margin-bottom:30px;
+        
+    }
+    
+    #forthSectionTestimonies{
+        display: flex;
+        gap: 20px;
+        width:100%;
+        background: linear-gradient(90deg,#4a0586 0,rgba(105,0,197,.404) 50%,#4a0586);
+        padding:20px;
+        flex-direction:column;
+        align-items:center;
+        margin-bottom:30px;
+
+    }
+
+    #forthSectionTestimoniesSingle{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    #forthSectionTestimoniesSingle div b{
+        font-size:25px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingle div b span{
+        font-size:20px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingleStand{
+        border: 0.5px solid #FFFF;
+        width:30%;
+        display:block;
+        align-self:center;
+    }
+    #forthSectionTestimonyOfUser{
+        display:flex;
+        justify-content:space-between;
+        gap:13px;
+        width:90%;
+        margin-top:10px;
+        overflow-x:scroll;
+        overflow-y:hidden;
+    }
+
+    #forthSectionTestimonyOfUserFirstChild{
+        background-color:#FFF;
+        border-radius:20px;
+        color:#000;
+        min-width:430px; 
+        padding:48px 20px 0;
+        /* border:1px solid red; */
+    }
+    #forthSectionTestimonyOfUserFirstChild p{
+        font-size:24px;
+        font-weight:450;
+        color:rgb(43, 41, 41);
+        margin-top: 10px;
+
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+    }
+
+
+    #forthSectionTestimonyOfUserFirstChild div div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+        flex-direction:column;
+        margin-left: 20px;
+        row-gap: 0px;
+        
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div div span{
+    font-size:28px;
+    }
+
+    #StarReaction{
+        margin-top:-10px ;
+    }
+
+    .Partnercontainer{
+    padding:0 0px;
+        
+    }
+    
+    #PathnersSection{
+        height: 1940px;
+        padding-top: 40px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    #PathnersSection h1{
+        height: 5%;
+        color: #202046;
+        font-size:55px;
+        /* border:1px solid red; */
+        font-weight:600;
+        margin-bottom:20px;
+    }
+
+    #PathnersSectionChild{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    width:100%;
+    gap:10px;
+    height:80%;
+    /* border:1px solid red; */
+    }
+
+    #PathnersSectionChild div{
+        width:44%;
+        margin:0px 10px;
+        display:flex;
+        justify-content:space-around;
+        
+    }
+
+    .smallDeviceDn{
+       display:none !important;
+    }
+
+    #Footer{
+        background:#E6E6E6;
+        height:1460px;
+        padding:10px;
+        width:100%;
+    }
+
+    #FooterFirstChild{
+        display:flex;
+        justify-content:space-between;
+        flex-direction:row;
+        align-items:center;
+        flex-wrap:wrap;
+    }
+    #SpecialDiv{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center
+    }
+    .SpecialDiv{
+        width:100% !important;
+        align-self:center;
+    }
+    #FooterFirstChild div h5{
+        font-size:38px;
+        margin:20px 0px;
+    }
+    
+    #socialMedials{
+        display:flex;
+        width:100% !important;
+        margin-top:10px;
+    }
+
+    #socialMedials img{
+        display:flex;
+        /* width:100% !important; */
+        margin:0 10px;
+        /* border:1px solid red;  */
+    }
+    #FooterFirstChild div p{
+        font-size:24px;
+        cursor:pointer;
+    }
+    #FooterFirstChild div p:hover{
+        font-size:18.5px;
+        color:#1693DE;
+    }
+
+}
+@media (max-width:326px) and (min-width:3px){   
+
+    #container{
+        color: red;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: stretch;
+        flex-direction:column;
+        height: 900px;
+        margin:20px 0;
+    }
+
+    .firstSection .childrens{
+        height: 50%;
+    }
+    #firstChild {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100% !important;
+        row-gap: 20px;
+        height:50% !important;
+    }
+    #firstChild h3 {
+    font-size: 58px;
+    font-weight: 500;
+    text-align:center;
+    }
+    #firstChild h3 span {
+    font-size: 55px;
+    font-weight: 500;
+    }
+    #firstChild article {
+        font-size: 26px;
+        padding: 0 0px 0 0;
+        border:1px solid red;
+        font-weight:500;
+    }
+
+    #secondChild {
+        width: 100% !important;
+        height:100%;
+    }
+
+    .firstSectionchildrensImage {
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+
+
+    /* this is the second section */
+
+    .SecondSection{
+        /* border: 1px solid red; */
+        height: 1300px;
+        display: flex;
+        flex-direction:column;
+        gap: 40px;
+    }
+
+    #SecondSectionSecondElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        height:50%;
+        /* border: 1px solid red; */
+    }
+
+    #SecondSectionSecondElement   b{
+    font-size: 45px;
+    text-align:center;
+    font-weight: 600;
+    
+    }
+    #SecondSectionSecondElement   p{
+    font-size: 28px;
+    padding-right: 0px;
+
+    }
+    #SecondSectionSecondElement   a{
+    font-size: 32px;
+    text-decoration: none;
+    color: #6D06B2;
+    text-align:center;
+    display:block;
+    font-weight: 600;
+    }
+    #SecondSectionFirstElement{
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    #SecondSectionFirstElement img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* this is the third section */
+
+    #ThirdSection{
+        height: 1400px;
+        display: flex;
+        gap: 0px;
+        flex-direction:column-reverse;
+        /* border:1px solid red; */
+        justify-content:space-around;
+    }
+
+    #ThirdSectionFirstElement{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+    }
+    #ThirdSectionFirstElement h3{
+        font-size: 54px;
+        font-weight: 600;
+        
+    }
+    #ThirdSectionFirstElement p{
+        font-size: 30px;
+    padding-right: 20px;
+    }
+    #ThirdSectionFirstElement button{
+        border: none;
+        display:block;
+        align-self:center;
+        font-size: 20px;
+        background-color: #6306B2;
+        border-radius: 10px;
+        padding: 20px;
+        color: #FFF;
+    }
+
+    #ThirdSectionSecondElement{
+        height: 50%;
+        width: 100%;
+        /* border:1px solid red; */
+    }
+    #ThirdSectionSecondElement img{
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    /* forth section  */
+
+    #forthSection{
+        margin-top: 10px;
+        background-color: #4A0586;
+        height: 750px;
+        display: flex;
+        color: #FFF;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+    #forthSection h1{
+        color: #FFF;
+        font-weight: 500;
+        font-size: 40px;
+        margin-bottom:30px;
+        
+    }
+    
+    #forthSectionTestimonies{
+        display: flex;
+        gap: 20px;
+        width:100%;
+        background: linear-gradient(90deg,#4a0586 0,rgba(105,0,197,.404) 50%,#4a0586);
+        padding:20px;
+        flex-direction:column;
+        align-items:center;
+        margin-bottom:30px;
+
+    }
+
+    #forthSectionTestimoniesSingle{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    #forthSectionTestimoniesSingle div b{
+        font-size:25px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingle div b span{
+        font-size:20px;
+        font-weight:500;
+    }
+    #forthSectionTestimoniesSingleStand{
+        border: 0.5px solid #FFFF;
+        width:30%;
+        display:block;
+        align-self:center;
+    }
+    #forthSectionTestimonyOfUser{
+        display:flex;
+        justify-content:space-between;
+        gap:13px;
+        width:90%;
+        margin-top:10px;
+        overflow-x:scroll;
+        overflow-y:hidden;
+    }
+
+    #forthSectionTestimonyOfUserFirstChild{
+        background-color:#FFF;
+        border-radius:20px;
+        color:#000;
+        min-width:430px; 
+        padding:48px 20px 0;
+        /* border:1px solid red; */
+    }
+    #forthSectionTestimonyOfUserFirstChild p{
+        font-size:24px;
+        font-weight:450;
+        color:rgb(43, 41, 41);
+        margin-top: 10px;
+
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+    }
+
+
+    #forthSectionTestimonyOfUserFirstChild div div{
+        display:flex;
+        background-color:#FFF;
+        border-radius:20px;
+        flex-direction:column;
+        margin-left: 20px;
+        row-gap: 0px;
+        
+    }
+
+    #forthSectionTestimonyOfUserFirstChild div div span{
+    font-size:28px;
+    }
+
+    #StarReaction{
+        margin-top:-10px ;
+    }
+
+    .Partnercontainer{
+    padding:0 0px;
+        
+    }
+    
+    #PathnersSection{
+        height: 1740px;
+        padding-top: 40px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    #PathnersSection h1{
+        height: 7%;
+        color: #202046;
+        font-size:040px;
+        /* border:1px solid red; */
+        font-weight:600;
+        margin-bottom:20px;
+    }
+
+    #PathnersSectionChild{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    width:100%;
+    gap:10px;
+    height:80%;
+    /* border:1px solid red; */
+    }
+
+    #PathnersSectionChild div{
+        width:44%;
+        margin:0px 10px;
+        display:flex;
+        justify-content:space-around;
+        
+    }
+
+    .smallDeviceDn{
+       display:none !important;
+    }
+
+    #Footer{
+        background:#E6E6E6;
+        height:1460px;
+        padding:0px;
+        width:100%;
+    }
+
+    #FooterFirstChild{
+        display:flex;
+        justify-content:space-between;
+        flex-direction:row;
+        align-items:center;
+        flex-wrap:wrap;
+    }
+    #SpecialDiv{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center
+    }
+    .SpecialDiv{
+        width:100% !important;
+        align-self:center;
+    }
+    #FooterFirstChild div h5{
+        font-size:35px;
+        margin:20px 0px;
+    }
+    
+    #socialMedials{
+        display:flex;
+        width:100% !important;
+        margin-top:10px;
+        flex-wrap:wrap;
+    }
+    #socialMedials span{
+         width:50%;
+         margin:10px 0px; 
+         display:flex;
+         justify-content:center;
+    }
+
+    #socialMedials img{
+       
+       
+        /* width:100% !important; */
+        margin:0 10px;
+        /* border:1px solid red;  */
+    }
+
+    #FooterFirstChild div p{
+        font-size:22px;
+        cursor:pointer;
+    }
+    #FooterFirstChild div p:hover{
+        font-size:18.5px;
+        color:#1693DE;
+    }
+
+}
