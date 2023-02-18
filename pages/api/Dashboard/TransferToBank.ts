@@ -73,7 +73,7 @@ export default async function Handler(
                         .catch((err) => {
                           console.log(err.message);
                           res.send({
-                            message: "Network error1",
+                            message: "Network error",
                             status: false,
                           });
                         });
@@ -81,7 +81,7 @@ export default async function Handler(
                     .catch((err) => {
                       console.log(err.message);
                       res.send({
-                        message: "Network error2",
+                        message: "Network error",
                         status: false,
                       });
                     });
@@ -101,7 +101,7 @@ export default async function Handler(
                     .catch((err) => {
                       console.log(err.message);
                       return {
-                        message: "Network error3",
+                        message: "Network error",
                         status: false,
                       };
                     });
@@ -127,7 +127,7 @@ export default async function Handler(
                       .catch((err) => {
                         console.log(err.message);
                         return {
-                          message: "Network error4",
+                          message: "Network error",
                           status: false,
                         };
                       });
@@ -267,7 +267,7 @@ async function CreateChart(
       .catch((err) => {
         console.log(err.message);
         return {
-          message: "Network error5",
+          message: "Network error",
           status: false,
         };
       });
@@ -275,7 +275,7 @@ async function CreateChart(
   } else {
     let $inc: any = { accountbalance: -(amount + 50) }
     $inc[`monthlychart.chart.${new Date().toDateString().substring(4,7)}.withdraw`] = +amount;
-    let result: any = await UserModel.findByIdAndUpdate<any>(ress._id, {
+    let result: any = await UserModel.findByIdAndUpdate<any>(ress.id, {
       $inc: $inc
     }).then(async (value: any) => {
       if (isDaruz) {
@@ -295,7 +295,7 @@ async function CreateChart(
     .catch((err: any) => {
       console.log(err.message);
       return {
-        message: "Network error6",
+        message: "Network error",
         status: false,
       };
     });
@@ -334,7 +334,7 @@ const MakeTransferToRecipcent = async (
         .catch((err: any) => {
           console.log(err.message);
           return {
-            message: "Network error7",
+            message: "Network error",
             status: false,
           };
         });
@@ -343,7 +343,7 @@ const MakeTransferToRecipcent = async (
     .catch((err) => {
       console.log(err.message);
       return {
-        message: "Network error8",
+        message: "Network error",
         status: false,
       };
     });
