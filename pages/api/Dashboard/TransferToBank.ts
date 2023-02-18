@@ -73,7 +73,7 @@ export default async function Handler(
                         .catch((err) => {
                           console.log(err.message);
                           res.send({
-                            message: "Network error",
+                            message: "Network error1",
                             status: false,
                           });
                         });
@@ -81,7 +81,7 @@ export default async function Handler(
                     .catch((err) => {
                       console.log(err.message);
                       res.send({
-                        message: "Network error",
+                        message: "Network error2",
                         status: false,
                       });
                     });
@@ -101,7 +101,7 @@ export default async function Handler(
                     .catch((err) => {
                       console.log(err.message);
                       return {
-                        message: "Network error",
+                        message: "Network error3",
                         status: false,
                       };
                     });
@@ -127,7 +127,7 @@ export default async function Handler(
                       .catch((err) => {
                         console.log(err.message);
                         return {
-                          message: "Network error",
+                          message: "Network error4",
                           status: false,
                         };
                       });
@@ -267,7 +267,7 @@ async function CreateChart(
       .catch((err) => {
         console.log(err.message);
         return {
-          message: "Network error",
+          message: "Network error5",
           status: false,
         };
       });
@@ -295,7 +295,7 @@ async function CreateChart(
     .catch((err: any) => {
       console.log(err.message);
       return {
-        message: "Network error",
+        message: "Network error6",
         status: false,
       };
     });
@@ -334,7 +334,7 @@ const MakeTransferToRecipcent = async (
         .catch((err: any) => {
           console.log(err.message);
           return {
-            message: "Network error",
+            message: "Network error7",
             status: false,
           };
         });
@@ -343,7 +343,7 @@ const MakeTransferToRecipcent = async (
     .catch((err) => {
       console.log(err.message);
       return {
-        message: "Network error",
+        message: "Network error8",
         status: false,
       };
     });
