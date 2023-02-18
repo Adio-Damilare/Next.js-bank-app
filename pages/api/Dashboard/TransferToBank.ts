@@ -295,7 +295,7 @@ async function CreateChart(
     .catch((err: any) => {
       console.log(err.message);
       return {
-        message: "Network error",
+        message: "Network error6" + err.message,
         status: false,
       };
     });
@@ -334,7 +334,7 @@ const MakeTransferToRecipcent = async (
         .catch((err: any) => {
           console.log(err.message);
           return {
-            message: "Network error",
+            message: "Network error7",
             status: false,
           };
         });
@@ -343,7 +343,7 @@ const MakeTransferToRecipcent = async (
     .catch((err) => {
       console.log(err.message);
       return {
-        message: "Network error",
+        message: "Network error8",
         status: false,
       };
     });
