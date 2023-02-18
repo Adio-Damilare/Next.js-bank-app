@@ -274,8 +274,8 @@ async function CreateChart(
     return result;
   } else {
     let $inc: any = { accountbalance: -(amount + 50) }
-    // let arrayOfMonth=["Jan",]
-    // $inc[`monthlychart.chart.${new Date().toDateString().substring(4,7)}.withdraw`] = +amount;
+    let arrayOfMonth=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+    $inc[`monthlychart.chart.${arrayOfMonth[new Date().getMonth()]}.withdraw`] = +amount;
     let result: any = await UserModel.findByIdAndUpdate<any>(ress.id, {
       $inc: $inc
     }).then(async (value: any) => {
