@@ -43,7 +43,7 @@ export default async function Handler(
               })
               .catch((err: any) => {
                 res.send({
-                  message: "failed to create user",
+                  message: err.message,
                   status: false,
                 });
               });

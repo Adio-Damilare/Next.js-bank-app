@@ -42,22 +42,28 @@ const Register = () => {
 
   const HandleSubmitForm = async (value: any) => {
     setloading(true);
-    let response = await axios.post("/api/Register/", {
+    axios.post("/api/Register/", {
       ...data,
       username: value,
-    });
-    if (response.data.status) {
-      dispatch(AddUser(data.email));
-      useRoute.push("/Register/Verification");
-    } else {
-      if (response.data.message == "Email already exist") {
-        setStates(2);
-        setmessage("Email already exist");
+    }).then((response:any)=>{
+      console.log(response)
+      if (response.data.status) {
+        dispatch(AddUser(data.email));
+        useRoute.push("/Register/Verification");
       } else {
-        console.log(response.data.message)
+        if (response.data.message == "Email already exist") {
+          setStates(2);
+          setmessage("Email already exist");
+        } else {
+          setmessage(response.data.message);
+        }
       }
-    }
-    setloading(false);
+    }).catch((err)=>{
+      setmessage(err.message);
+    })
+    .finally(()=>{
+      setloading(false);
+    });
   };
 
   return (
