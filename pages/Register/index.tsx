@@ -59,6 +59,9 @@ const Register = () => {
         }
       }
     }).catch((err)=>{
+
+      console.log(err.message)
+      console.log(err.message)
       setmessage(err.message);
     })
     .finally(()=>{
