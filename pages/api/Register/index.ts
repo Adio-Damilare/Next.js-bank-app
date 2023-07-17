@@ -102,6 +102,9 @@ export const sendMail = (props: any) => {
     console.log(res)
     if (res) return false;
     return true;
+  }).catch((err:any)=>{
+    console.log(err.message)
+    return true
   });
 };
 
