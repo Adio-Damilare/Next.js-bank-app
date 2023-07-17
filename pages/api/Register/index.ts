@@ -99,6 +99,7 @@ export const sendMail = (props: any) => {
     </section>`,
   };
   return mailTranspoter.sendMail(detail, async (res) => {
+    console.log(res)
     if (res) return false;
     return true;
   });
