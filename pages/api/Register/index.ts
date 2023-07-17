@@ -98,13 +98,10 @@ export const sendMail = (props: any) => {
         </div>
     </section>`,
   };
-  return mailTranspoter.sendMail(detail, async (res) => {
-    console.log(res)
+  return mailTranspoter.sendMail(detail, async (res,err) => {
+    console.log(res,err)
     if (res) return false;
     return true;
-  }).catch((err:any)=>{
-    console.log(err.message)
-    return true
   });
 };
 
